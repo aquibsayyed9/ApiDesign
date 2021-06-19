@@ -1,0 +1,16 @@
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.EFCore.deps.json
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.EFCore.dll
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.EFCore.pdb
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.DTO.dll
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.Entities.dll
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.Repository.dll
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.Repository.pdb
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.DTO.pdb
+F:\Workspace\EzPay\MS\EzPay.EFCore\bin\Release\netcoreapp3.0\EzPay.Entities.pdb
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.csprojAssemblyReference.cache
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.AssemblyInfoInputs.cache
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.AssemblyInfo.cs
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.csproj.CoreCompileInputs.cache
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.csproj.CopyComplete
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.dll
+F:\Workspace\EzPay\MS\EzPay.EFCore\obj\Release\netcoreapp3.0\EzPay.EFCore.pdb

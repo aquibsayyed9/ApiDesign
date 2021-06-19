@@ -1,0 +1,25 @@
+2021-02-15 15:11:00.9082|DEBUG|EzPayService.Program|init main function
+2021-02-15 15:20:43.0476|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-15 15:21:41.0843|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-15 15:21:41.0862|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-15 15:21:41.0862|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-15 15:21:41.0862|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-15 15:21:41.3623|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-15 15:21:41.3786|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-15 15:21:41.3786|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-15 15:21:41.3786|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-15 15:21:41.3836|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-15 15:21:41.3836|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-15 15:21:41.3836|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-15 15:21:41.4374|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Balances/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"bbb0f328-8767-4c","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-15 15:21:41.4374|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-15 15:21:41.4968|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-15 15:21:41.4968|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-15 15:21:41.4968|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-15 15:21:43.5132|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"261127864888","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"29ced883-3113-4252-9f5d-080a2b341e52"}} 
+ De-Serializing to get Response
+2021-02-15 15:21:43.5339|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 261127864888, Updating paymentTransactionsDTO properties
+2021-02-15 15:21:43.5339|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-15 15:21:43.5339|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-15 15:21:44.8712|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 29, Mapping Entity to DTO and exiting method
+2021-02-15 15:21:44.8712|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 29

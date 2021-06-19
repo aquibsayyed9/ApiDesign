@@ -1,0 +1,16 @@
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.DataAccess.deps.json
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.DataAccess.dll
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.DataAccess.pdb
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.DTO.dll
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.Entities.dll
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.Repository.dll
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.Repository.pdb
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.DTO.pdb
+F:\Workspace\EzPay\MS\EzPay.DataAccess\bin\Release\netcoreapp3.0\EzPay.Entities.pdb
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.csprojAssemblyReference.cache
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.AssemblyInfoInputs.cache
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.AssemblyInfo.cs
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.csproj.CoreCompileInputs.cache
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.csproj.CopyComplete
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.dll
+F:\Workspace\EzPay\MS\EzPay.DataAccess\obj\Release\netcoreapp3.0\EzPay.DataAccess.pdb

@@ -1,0 +1,315 @@
+2021-02-28 00:15:34.9737|DEBUG|EzPayService.Program|init main function
+2021-02-28 00:18:52.8397|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 00:19:50.0517|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 00:19:50.0517|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 4
+2021-02-28 00:19:50.0564|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 00:19:50.0716|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 00:19:50.6709|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 00:19:50.6862|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-28 00:19:50.6862|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-28 00:23:15.9405|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 00:23:15.9466|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 4
+2021-02-28 00:23:15.9466|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 00:23:15.9466|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 00:23:16.2065|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 00:23:16.2065|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-28 00:23:16.2065|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-28 00:23:26.6342|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 00:23:27.7080|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 4
+2021-02-28 00:23:39.2322|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 00:23:46.7637|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 00:24:01.8606|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 00:24:48.3148|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 00:39:20.9036|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 00:39:20.9036|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-28 00:39:20.9036|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-28 00:45:51.5410|DEBUG|EzPayService.Program|init main function
+2021-02-28 12:21:54.6552|DEBUG|EzPayService.Program|init main function
+2021-02-28 12:40:00.0031|DEBUG|EzPayService.Program|init main function
+2021-02-28 12:41:05.4667|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 13:14:12.7165|DEBUG|EzPayService.Program|init main function
+2021-02-28 13:17:44.6887|DEBUG|EzPayService.Program|init main function
+2021-02-28 13:18:15.5637|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 14:53:35.4412|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '123.108.231.104' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.TowerDataAccess.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\TowerDataAccess.cs:line 32
+   at EzPay.Business.Classes.TowerBusiness.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\TowerBusiness.cs:line 35
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo, Int32 chargeTypeId, Int32 towerId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 53
+ClientConnectionId:2805c8b3-fe5a-4bda-b833-d7505c15cba8
+Error Number:40615,State:1,Class:14
+2021-02-28 14:54:04.0041|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '123.108.231.104' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.TowerDataAccess.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\TowerDataAccess.cs:line 32
+   at EzPay.Business.Classes.TowerBusiness.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\TowerBusiness.cs:line 35
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo, Int32 chargeTypeId, Int32 towerId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 53
+ClientConnectionId:5d46d776-28e9-4f0e-8b06-6a2d94a4db61
+Error Number:40615,State:1,Class:14
+2021-02-28 14:55:14.5413|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '123.108.231.104' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.TowerDataAccess.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\TowerDataAccess.cs:line 32
+   at EzPay.Business.Classes.TowerBusiness.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\TowerBusiness.cs:line 35
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo, Int32 chargeTypeId, Int32 towerId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 53
+ClientConnectionId:949c81d8-8c20-4f5b-8c16-c80da698200f
+Error Number:40615,State:1,Class:14
+2021-02-28 14:59:37.7802|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '123.108.231.104' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.TowerDataAccess.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\TowerDataAccess.cs:line 32
+   at EzPay.Business.Classes.TowerBusiness.GetTower(Int32 towerId, Int32 chargeTypeId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\TowerBusiness.cs:line 35
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo, Int32 chargeTypeId, Int32 towerId) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 53
+ClientConnectionId:bb95e173-acc1-4f6e-a889-feb0ec2221c0
+Error Number:40615,State:1,Class:14
+2021-02-28 15:45:31.0400|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 16:07:23.8761|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 16:07:23.8761|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-02-28 16:07:23.9025|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 16:07:23.9893|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:07:26.2254|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:07:26.4669|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-28 16:07:26.4669|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-28 16:09:02.7315|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 16:09:03.7583|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-02-28 16:09:09.9432|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 16:09:14.4593|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:09:14.6937|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:10:40.3321|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:10:40.6955|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:10:40.7012|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 16:10:40.7012|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 16:10:40.7012|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-28 16:10:40.7345|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-28 16:10:40.8187|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-28 16:10:40.8187|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-28 16:10:40.8220|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-28 16:10:40.8220|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-28 16:10:40.9525|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-28 16:10:40.9525|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 16:10:40.9525|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 16:10:43.1204|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 44, Mapping Entity to DTO and exiting method
+2021-02-28 16:10:43.1204|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 44
+2021-02-28 16:11:18.5199|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 16:11:18.5259|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-02-28 16:11:18.5259|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 16:11:20.5651|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:11:24.4754|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:11:33.1118|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 16:11:35.7323|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 16:11:40.9151|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-28 16:11:48.5603|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-28 16:11:48.5603|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-28 16:13:44.4806|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-28 16:13:47.1441|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-28 16:13:47.1783|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-28 16:13:47.1842|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-28 16:13:54.7562|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 16:13:55.0706|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 16:13:55.9418|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 45, Mapping Entity to DTO and exiting method
+2021-02-28 16:13:57.6262|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 45
+2021-02-28 16:14:18.0106|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 16:14:18.0106|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-02-28 16:14:18.0106|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 16:14:18.7288|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:14:18.9483|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-28 16:14:18.9483|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 16:14:18.9613|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 16:14:19.8742|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 46, Mapping Entity to DTO and exiting method
+2021-02-28 16:14:19.8742|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 46
+2021-02-28 16:56:14.1193|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 16:56:19.9093|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-28 16:56:43.5785|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 16:56:43.5785|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-28 16:56:43.5785|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 16:56:45.0915|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 16:56:45.3142|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 16:56:45.3142|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 16:56:45.3142|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 16:56:45.3142|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-28 16:56:45.3142|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-28 16:56:45.3231|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-28 16:56:45.3231|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-28 16:56:45.4777|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"dcd0bae2-fb2f-45","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"10332.62","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-28 16:56:45.4777|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-28 16:56:45.5456|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-28 16:56:45.5697|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-28 16:56:45.6156|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-28 16:56:48.2650|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"217120642464","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"8390a8a0-e95b-4a33-8539-54d8d971ec48"}} 
+ De-Serializing to get Response
+2021-02-28 16:56:48.2771|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 217120642464, Updating paymentTransactionsDTO properties
+2021-02-28 16:56:48.2771|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 16:56:48.2771|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 16:56:49.0225|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 47, Mapping Entity to DTO and exiting method
+2021-02-28 16:56:49.0241|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 47
+2021-02-28 16:57:25.9911|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-28 16:57:25.9944|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 217120642464, for updating payment status
+2021-02-28 16:57:26.2887|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-28 16:57:26.2896|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-28 16:57:32.6691|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-28 16:57:32.6691|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-28 16:57:32.6691|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:04:27.7376|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-28 17:04:27.7490|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-28 17:04:27.7894|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:09:24.3868|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-28 17:09:24.3868|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-28 17:09:24.3868|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:10:49.5964|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 17:10:49.5964|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-28 17:10:49.5964|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 17:10:51.2708|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 17:10:51.4949|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:10:51.4949|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 17:10:51.4949|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"6493249b-5346-46","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"10332.62","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-28 17:10:51.5086|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-28 17:10:51.5271|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-28 17:10:51.5271|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-28 17:10:53.1003|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"213634080881","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"5fc27df7-9c1a-4ea4-ab74-433487f34f8c"}} 
+ De-Serializing to get Response
+2021-02-28 17:10:53.1574|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 213634080881, Updating paymentTransactionsDTO properties
+2021-02-28 17:10:53.1574|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 17:10:53.1574|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 17:10:53.8670|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 48, Mapping Entity to DTO and exiting method
+2021-02-28 17:10:53.8670|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 48
+2021-02-28 17:11:46.5426|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-28 17:11:46.5426|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 213634080881, for updating payment status
+2021-02-28 17:11:46.7885|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-28 17:11:46.7897|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-28 17:11:50.9712|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-28 17:11:50.9712|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-28 17:11:50.9712|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:12:54.1982|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 17:12:54.2236|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-28 17:12:54.2236|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 17:12:55.1437|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 17:12:55.3628|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:12:55.3628|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 17:12:55.3628|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"bbf98819-a571-47","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"10332.62","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-28 17:12:55.3708|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-28 17:12:55.3826|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-28 17:12:55.3826|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-28 17:12:57.0619|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"236843155534","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"36e2bd55-9ca4-4067-bb3c-cabda43e654a"}} 
+ De-Serializing to get Response
+2021-02-28 17:12:57.0619|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 236843155534, Updating paymentTransactionsDTO properties
+2021-02-28 17:12:57.0619|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 17:12:57.0619|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 17:12:57.7101|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 49, Mapping Entity to DTO and exiting method
+2021-02-28 17:12:57.7110|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 49
+2021-02-28 17:13:17.5719|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-28 17:13:17.5719|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 236843155534, for updating payment status
+2021-02-28 17:13:17.7927|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-28 17:13:17.7927|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-28 17:13:25.4246|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-28 17:13:25.4246|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-28 17:13:25.4246|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:40:56.8026|DEBUG|EzPayService.Program|init main function
+2021-02-28 17:42:46.5300|DEBUG|EzPayService.Program|init main function
+2021-02-28 17:43:32.7325|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-28 17:43:32.7325|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-28 17:43:32.7459|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-28 17:43:42.0326|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-28 17:43:45.6580|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-28 17:43:45.7082|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-28 17:43:45.7082|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-28 17:43:45.7082|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-28 17:43:45.7124|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-28 17:43:45.7124|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-28 17:43:45.7124|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-28 17:43:45.7735|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"75e8625b-58ef-47","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"10332.62","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-28 17:43:45.7735|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-28 17:43:45.8959|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-28 17:43:45.9160|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-28 17:43:45.9360|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-28 17:43:48.3884|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"265176570226","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"d160234e-06dd-40e9-abfe-64ea1de8ffe6"}} 
+ De-Serializing to get Response
+2021-02-28 17:43:48.4069|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 265176570226, Updating paymentTransactionsDTO properties
+2021-02-28 17:43:48.4069|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-02-28 17:43:48.4069|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-28 17:43:49.4375|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 50, Mapping Entity to DTO and exiting method
+2021-02-28 17:43:49.4492|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 50

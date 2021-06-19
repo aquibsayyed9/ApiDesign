@@ -1,0 +1,90 @@
+2021-01-24 17:54:18.2089|DEBUG|EzPayService.Program|init main function
+2021-01-24 18:01:19.9514|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-24 18:13:28.7014|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:13:28.7014|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:13:28.7134|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:13:28.7134|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:13:28.7134|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:13:28.7320|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:20:40.8490|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:20:40.8490|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:20:40.8523|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:20:40.8523|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:20:40.8523|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:20:40.8523|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:21:53.1379|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:21:53.1526|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:21:53.1526|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:21:53.1724|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:21:53.1818|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:21:53.1981|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:23:10.2208|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-24 18:24:22.1951|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:24:22.2036|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:24:22.2036|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:24:22.2036|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:24:22.2131|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:24:22.2131|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:24:49.8791|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:24:49.8837|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:24:49.8837|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:24:49.8837|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:24:49.8837|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:24:49.9013|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:25:04.4533|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:25:04.4533|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:25:04.4533|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:25:04.4533|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:25:04.4623|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:25:04.4623|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:27:09.0056|DEBUG|EzPayService.Program|init main function
+2021-01-24 18:27:44.8400|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:27:44.8400|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:27:44.8400|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:27:44.8549|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:27:44.8549|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:27:44.8549|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:27:56.5257|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:27:56.5257|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:27:56.5257|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:27:56.5257|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:27:56.5257|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:27:56.5257|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:30:38.2280|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:30:38.2280|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:30:38.2280|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:30:38.2280|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:30:38.2280|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:30:38.2280|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:47:21.9570|DEBUG|EzPayService.Program|init main function
+2021-01-24 18:48:09.6895|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-01-24 18:48:09.7161|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-01-24 18:48:09.7161|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-01-24 18:48:09.7161|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-01-24 18:48:09.7285|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-01-24 18:48:09.7285|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-01-24 18:50:10.9651|DEBUG|EzPayService.Program|init main function
+2021-01-24 18:51:19.5497|ERROR|EzPayService.Controllers.BalancesController|Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'EzPay.Business.Interfaces.IBalancesBusinessAccess.PaymentInitiate(EzPay.DTO.PaymentTransactionsDTO)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , IBalancesBusinessAccess , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at EzPayService.Controllers.BalancesController.PayAmount(Object paymentDto) in F:\Workspace\EzPay\MS\EzPayService\Controllers\BalancesController.cs:line 48
+2021-01-24 18:56:47.5647|DEBUG|EzPayService.Program|init main function
+2021-01-24 18:57:29.5436|ERROR|EzPayService.Controllers.BalancesController|Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Newtonsoft.Json.JsonConvert.DeserializeObject<EzPay.DTO.PaymentTransactionsDTO>(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at EzPayService.Controllers.BalancesController.PayAmount(Object paymentDto) in F:\Workspace\EzPay\MS\EzPayService\Controllers\BalancesController.cs:line 49
+2021-01-24 19:02:08.6365|DEBUG|EzPayService.Program|init main function
+2021-01-24 19:08:33.3700|DEBUG|EzPayService.Program|init main function
+2021-01-24 19:12:18.7627|DEBUG|EzPayService.Program|init main function
+2021-01-24 20:13:32.9272|DEBUG|EzPayService.Program|init main function
+2021-01-24 20:15:43.8496|ERROR|EzPayService.Controllers.BalancesController|Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: E. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at EzPayService.Controllers.BalancesController.PayAmount(PaymentTransactionsDTO paymentDto) in F:\Workspace\EzPay\MS\EzPayService\Controllers\BalancesController.cs:line 52

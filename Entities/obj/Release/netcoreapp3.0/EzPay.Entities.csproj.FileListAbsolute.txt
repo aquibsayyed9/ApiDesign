@@ -1,0 +1,12 @@
+F:\Workspace\EzPay\MS\EzPay.Entities\bin\Release\netcoreapp3.0\EzPay.Entities.deps.json
+F:\Workspace\EzPay\MS\EzPay.Entities\bin\Release\netcoreapp3.0\EzPay.Entities.runtimeconfig.json
+F:\Workspace\EzPay\MS\EzPay.Entities\bin\Release\netcoreapp3.0\EzPay.Entities.runtimeconfig.dev.json
+F:\Workspace\EzPay\MS\EzPay.Entities\bin\Release\netcoreapp3.0\EzPay.Entities.dll
+F:\Workspace\EzPay\MS\EzPay.Entities\bin\Release\netcoreapp3.0\EzPay.Entities.pdb
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.csprojAssemblyReference.cache
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.AssemblyInfoInputs.cache
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.AssemblyInfo.cs
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.csproj.CoreCompileInputs.cache
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.dll
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.pdb
+F:\Workspace\EzPay\MS\EzPay.Entities\obj\Release\netcoreapp3.0\EzPay.Entities.genruntimeconfig.cache

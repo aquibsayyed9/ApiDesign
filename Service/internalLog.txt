@@ -1,0 +1,787 @@
+2020-09-01 17:25:29.4031 Info Message Template Auto Format enabled
+2020-09-01 17:25:29.4464 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:25:29.6086 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:25:29.6214 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'alldata' not found for logging rule: *.
+2020-09-01 17:25:29.7295 Info Validating config: TargetNames=logfile, ConfigItems=22, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:27:54.5670 Info Message Template Auto Format enabled
+2020-09-01 17:27:54.5826 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:27:54.6577 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:27:54.7459 Info Validating config: TargetNames=logfile, ConfigItems=21, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:30:18.6907 Info Message Template Auto Format enabled
+2020-09-01 17:30:18.7102 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:30:18.8043 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:30:18.8749 Info Validating config: TargetNames=logfile, ConfigItems=21, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:43:29.1982 Info Message Template Auto Format enabled
+2020-09-01 17:43:29.2148 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:43:29.2875 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:43:29.3567 Info Validating config: TargetNames=logfile, ConfigItems=21, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:46:12.2114 Info Message Template Auto Format enabled
+2020-09-01 17:46:12.2329 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:46:12.3836 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:46:12.5007 Info Validating config: TargetNames=logfile, ConfigItems=21, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:51:25.2420 Info Message Template Auto Format enabled
+2020-09-01 17:51:25.2646 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:51:25.3306 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:51:25.4110 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 17:53:15.4664 Info Message Template Auto Format enabled
+2020-09-01 17:53:15.4890 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 17:53:15.5519 Info Adding target FileTarget(Name=logfile)
+2020-09-01 17:53:15.6185 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 18:28:23.4681 Info Message Template Auto Format enabled
+2020-09-01 18:28:23.4904 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 18:28:23.5431 Info Adding target FileTarget(Name=logfile)
+2020-09-01 18:28:23.6366 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 18:31:08.7717 Info Message Template Auto Format enabled
+2020-09-01 18:31:08.8753 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 18:31:09.0188 Info Adding target FileTarget(Name=logfile)
+2020-09-01 18:31:09.1247 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 18:33:17.4638 Info Message Template Auto Format enabled
+2020-09-01 18:33:17.4917 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 18:33:17.5617 Info Adding target FileTarget(Name=logfile)
+2020-09-01 18:33:17.6489 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 18:35:41.4629 Info Message Template Auto Format enabled
+2020-09-01 18:35:41.5910 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 18:35:41.7156 Info Adding target FileTarget(Name=logfile)
+2020-09-01 18:35:41.8289 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-01 18:48:03.6855 Info Message Template Auto Format enabled
+2020-09-01 18:48:03.7026 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-01 18:48:03.7522 Info Adding target FileTarget(Name=logfile)
+2020-09-01 18:48:03.8551 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-04 00:41:41.4519 Info Message Template Auto Format enabled
+2020-09-04 00:41:41.5000 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-04 00:41:41.6430 Info Adding target FileTarget(Name=logfile)
+2020-09-04 00:41:41.7703 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-04 00:43:44.6936 Info Message Template Auto Format enabled
+2020-09-04 00:43:44.7330 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-04 00:43:44.8628 Info Adding target FileTarget(Name=logfile)
+2020-09-04 00:43:44.9764 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-04 00:46:00.3099 Info Message Template Auto Format enabled
+2020-09-04 00:46:00.3639 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-04 00:46:00.5036 Info Adding target FileTarget(Name=logfile)
+2020-09-04 00:46:00.6148 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-04 00:51:51.4934 Info Message Template Auto Format enabled
+2020-09-04 00:51:51.5373 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-04 00:51:51.6783 Info Adding target FileTarget(Name=logfile)
+2020-09-04 00:51:51.8062 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-05 11:03:53.3212 Info Message Template Auto Format enabled
+2020-09-05 11:03:53.3793 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-05 11:03:53.5110 Info Adding target FileTarget(Name=logfile)
+2020-09-05 11:03:53.6098 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-05 11:08:02.3279 Info Message Template Auto Format enabled
+2020-09-05 11:08:02.8271 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-05 11:08:03.3357 Info Adding target FileTarget(Name=logfile)
+2020-09-05 11:08:03.7971 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-09-08 21:31:56.6366 Info Message Template Auto Format enabled
+2020-09-08 21:31:56.6699 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 21:31:56.7400 Info Adding target FileTarget(Name=logfile)
+2020-09-08 21:31:56.8016 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=D:\IBT_WS\EzzPay\Microservice\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-10 22:55:44.9993 Info Message Template Auto Format enabled
+2020-11-10 22:55:45.0688 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-10 22:55:45.4670 Info Adding target FileTarget(Name=logfile)
+2020-11-10 22:55:45.6383 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-10 23:16:37.7944 Info Message Template Auto Format enabled
+2020-11-10 23:16:37.8420 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-10 23:16:38.1325 Info Adding target FileTarget(Name=logfile)
+2020-11-10 23:16:38.2401 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-11 23:50:05.9095 Info Message Template Auto Format enabled
+2020-11-11 23:50:06.0209 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-11 23:50:06.1677 Info Adding target FileTarget(Name=logfile)
+2020-11-11 23:50:06.2888 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 00:00:17.2753 Info Message Template Auto Format enabled
+2020-11-12 00:00:17.6284 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 00:00:17.7747 Info Adding target FileTarget(Name=logfile)
+2020-11-12 00:00:17.9166 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 00:24:54.0308 Info Message Template Auto Format enabled
+2020-11-12 00:24:54.2245 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 00:24:54.7495 Info Adding target FileTarget(Name=logfile)
+2020-11-12 00:24:55.1868 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 01:01:35.8112 Info Message Template Auto Format enabled
+2020-11-12 01:01:36.1842 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 01:01:36.3047 Info Adding target FileTarget(Name=logfile)
+2020-11-12 01:01:36.3886 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 22:57:12.7548 Info Message Template Auto Format enabled
+2020-11-12 22:57:12.8281 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 22:57:12.9807 Info Adding target FileTarget(Name=logfile)
+2020-11-12 22:57:13.3252 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 23:03:51.0980 Info Message Template Auto Format enabled
+2020-11-12 23:03:51.1488 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 23:03:51.2452 Info Adding target FileTarget(Name=logfile)
+2020-11-12 23:03:51.3086 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 23:05:08.1448 Info Message Template Auto Format enabled
+2020-11-12 23:05:08.1850 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 23:05:08.2795 Info Adding target FileTarget(Name=logfile)
+2020-11-12 23:05:08.3411 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 23:07:14.5244 Info Message Template Auto Format enabled
+2020-11-12 23:07:14.5528 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 23:07:14.6364 Info Adding target FileTarget(Name=logfile)
+2020-11-12 23:07:14.6909 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-12 23:08:53.1311 Info Message Template Auto Format enabled
+2020-11-12 23:08:53.1694 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-12 23:08:53.2645 Info Adding target FileTarget(Name=logfile)
+2020-11-12 23:08:53.3305 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-21 12:04:49.1349 Info Message Template Auto Format enabled
+2020-11-21 12:04:49.2620 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-21 12:04:49.4381 Info Adding target FileTarget(Name=logfile)
+2020-11-21 12:04:49.6240 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-22 11:03:45.9882 Info Message Template Auto Format enabled
+2020-11-22 11:03:46.1951 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-22 11:03:46.5461 Info Adding target FileTarget(Name=logfile)
+2020-11-22 11:03:47.2789 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-11-28 12:43:12.9456 Info Message Template Auto Format enabled
+2020-11-28 12:43:13.1188 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-28 12:43:13.3837 Info Adding target FileTarget(Name=logfile)
+2020-11-28 12:43:13.5337 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 17:40:27.4096 Info Message Template Auto Format enabled
+2020-12-18 17:40:27.5684 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 17:40:28.1671 Info Adding target FileTarget(Name=logfile)
+2020-12-18 17:40:28.3477 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:17:02.0788 Info Message Template Auto Format enabled
+2020-12-18 19:17:02.2106 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:17:02.4695 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:17:02.6111 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:19:53.6093 Info Message Template Auto Format enabled
+2020-12-18 19:19:53.6422 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:19:55.2169 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:19:55.2980 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:21:28.3720 Info Message Template Auto Format enabled
+2020-12-18 19:21:28.4214 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:21:28.5398 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:21:28.6003 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:23:59.7826 Info Shutdown() called. Logger closing...
+2020-12-18 19:23:59.8218 Info Closing old configuration.
+2020-12-18 19:23:59.8773 Info Logger has been closed down.
+2020-12-18 19:25:40.8007 Info Message Template Auto Format enabled
+2020-12-18 19:25:40.8755 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:25:41.0244 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:25:41.0932 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:25:48.2849 Info Shutdown() called. Logger closing...
+2020-12-18 19:25:48.2998 Info Closing old configuration.
+2020-12-18 19:25:48.3548 Info Logger has been closed down.
+2020-12-18 19:28:22.1333 Info Message Template Auto Format enabled
+2020-12-18 19:28:22.1918 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:28:22.2776 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:28:22.3485 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:46:56.2340 Info Message Template Auto Format enabled
+2020-12-18 19:46:56.3881 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:46:56.8846 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:46:57.1770 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 19:51:19.1258 Info Message Template Auto Format enabled
+2020-12-18 19:51:19.1780 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 19:51:19.2844 Info Adding target FileTarget(Name=logfile)
+2020-12-18 19:51:19.3636 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-18 20:02:17.8825 Info Message Template Auto Format enabled
+2020-12-18 20:02:17.9143 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-18 20:02:18.0026 Info Adding target FileTarget(Name=logfile)
+2020-12-18 20:02:18.0600 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-19 00:26:27.0154 Info Message Template Auto Format enabled
+2020-12-19 00:26:27.2446 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-19 00:26:27.4868 Info Adding target FileTarget(Name=logfile)
+2020-12-19 00:26:27.7724 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-19 12:43:03.8847 Info Message Template Auto Format enabled
+2020-12-19 12:43:04.5005 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-19 12:43:05.2296 Info Adding target FileTarget(Name=logfile)
+2020-12-19 12:43:06.0566 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-23 22:34:42.4125 Info Message Template Auto Format enabled
+2020-12-23 22:34:42.9191 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-23 22:34:43.5033 Info Adding target FileTarget(Name=logfile)
+2020-12-23 22:34:44.0586 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-26 11:29:49.4865 Info Message Template Auto Format enabled
+2020-12-26 11:29:49.5950 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-26 11:29:49.7954 Info Adding target FileTarget(Name=logfile)
+2020-12-26 11:29:49.9231 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-28 15:31:00.4388 Info Message Template Auto Format enabled
+2020-12-28 15:31:00.6420 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-28 15:31:01.2725 Info Adding target FileTarget(Name=logfile)
+2020-12-28 15:31:01.7680 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-28 21:19:53.0756 Info Message Template Auto Format enabled
+2020-12-28 21:19:53.2386 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-28 21:19:53.7659 Info Adding target FileTarget(Name=logfile)
+2020-12-28 21:19:53.9208 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-29 16:05:04.4279 Info Message Template Auto Format enabled
+2020-12-29 16:05:05.0829 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-29 16:05:06.0247 Info Adding target FileTarget(Name=logfile)
+2020-12-29 16:05:06.4302 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-29 16:16:47.7952 Info Message Template Auto Format enabled
+2020-12-29 16:16:48.3493 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-29 16:16:48.7948 Info Adding target FileTarget(Name=logfile)
+2020-12-29 16:16:49.0800 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-29 18:37:04.0086 Info Message Template Auto Format enabled
+2020-12-29 18:37:04.0991 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-29 18:37:04.1972 Info Adding target FileTarget(Name=logfile)
+2020-12-29 18:37:04.4555 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-29 18:38:59.5757 Info Message Template Auto Format enabled
+2020-12-29 18:38:59.6625 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-29 18:38:59.7613 Info Adding target FileTarget(Name=logfile)
+2020-12-29 18:38:59.8252 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-30 15:26:46.1654 Info Message Template Auto Format enabled
+2020-12-30 15:26:46.4357 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-30 15:26:46.7461 Info Adding target FileTarget(Name=logfile)
+2020-12-30 15:26:46.9799 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-30 15:29:00.9431 Info Message Template Auto Format enabled
+2020-12-30 15:29:01.0178 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-30 15:29:01.1810 Info Adding target FileTarget(Name=logfile)
+2020-12-30 15:29:01.2701 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-30 15:31:11.1469 Info Message Template Auto Format enabled
+2020-12-30 15:31:11.3648 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-30 15:31:11.7394 Info Adding target FileTarget(Name=logfile)
+2020-12-30 15:31:12.0707 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-30 17:19:16.1824 Info Message Template Auto Format enabled
+2020-12-30 17:19:16.7649 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-30 17:19:16.8581 Info Adding target FileTarget(Name=logfile)
+2020-12-30 17:19:16.9244 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2020-12-30 17:23:59.6713 Info Message Template Auto Format enabled
+2020-12-30 17:23:59.7002 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-30 17:23:59.7933 Info Adding target FileTarget(Name=logfile)
+2020-12-30 17:23:59.8704 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-02 12:19:48.7544 Info Message Template Auto Format enabled
+2021-01-02 12:19:49.8181 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-02 12:19:53.5108 Info Adding target FileTarget(Name=logfile)
+2021-01-02 12:19:55.6456 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-02 21:49:27.2214 Info Message Template Auto Format enabled
+2021-01-02 21:49:27.5446 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-02 21:49:28.0166 Info Adding target FileTarget(Name=logfile)
+2021-01-02 21:49:28.3371 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-02 22:32:36.8066 Info Message Template Auto Format enabled
+2021-01-02 22:32:36.8849 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-02 22:32:36.9778 Info Adding target FileTarget(Name=logfile)
+2021-01-02 22:32:37.0501 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-02 22:41:33.4402 Info Message Template Auto Format enabled
+2021-01-02 22:41:33.5022 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-02 22:41:33.5852 Info Adding target FileTarget(Name=logfile)
+2021-01-02 22:41:33.6455 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-07 15:25:12.7768 Info Message Template Auto Format enabled
+2021-01-07 15:25:12.9174 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 15:25:13.1327 Info Adding target FileTarget(Name=logfile)
+2021-01-07 15:25:13.2975 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-07 15:40:49.9096 Info Message Template Auto Format enabled
+2021-01-07 15:40:50.0479 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 15:40:50.3330 Info Adding target FileTarget(Name=logfile)
+2021-01-07 15:40:50.5563 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-07 16:16:21.8211 Info Message Template Auto Format enabled
+2021-01-07 16:16:22.0772 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 16:16:22.2579 Info Adding target FileTarget(Name=logfile)
+2021-01-07 16:16:22.4106 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-16 13:43:06.9713 Info Message Template Auto Format enabled
+2021-01-16 13:43:07.4464 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-16 13:43:08.0629 Info Adding target FileTarget(Name=logfile)
+2021-01-16 13:43:08.4620 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Release\netcoreapp3.0\nlog.config
+2021-01-16 13:53:07.1973 Info Message Template Auto Format enabled
+2021-01-16 13:53:07.3516 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-16 13:53:07.5398 Info Adding target FileTarget(Name=logfile)
+2021-01-16 13:53:07.7362 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-16 13:54:16.4643 Info Message Template Auto Format enabled
+2021-01-16 13:54:16.4964 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-16 13:54:16.6029 Info Adding target FileTarget(Name=logfile)
+2021-01-16 13:54:16.6975 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-20 22:13:18.6471 Info Message Template Auto Format enabled
+2021-01-20 22:13:18.8965 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-20 22:13:19.1661 Info Adding target FileTarget(Name=logfile)
+2021-01-20 22:13:19.3124 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 22:01:41.9777 Info Message Template Auto Format enabled
+2021-01-22 22:01:42.1508 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 22:01:42.5364 Info Adding target FileTarget(Name=logfile)
+2021-01-22 22:01:42.7651 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 22:59:32.6186 Info Message Template Auto Format enabled
+2021-01-22 22:59:32.8814 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 22:59:33.2223 Info Adding target FileTarget(Name=logfile)
+2021-01-22 22:59:33.4623 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:11:44.1112 Info Message Template Auto Format enabled
+2021-01-22 23:11:44.3497 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:11:44.6108 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:11:44.7544 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:15:41.1539 Info Message Template Auto Format enabled
+2021-01-22 23:15:41.2880 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:15:41.4314 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:15:41.5984 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:16:39.9283 Info Message Template Auto Format enabled
+2021-01-22 23:16:39.9851 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:16:40.2293 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:16:40.3369 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:18:02.8810 Info Message Template Auto Format enabled
+2021-01-22 23:18:02.9517 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:18:03.1966 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:18:03.3096 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:19:19.8201 Info Message Template Auto Format enabled
+2021-01-22 23:19:19.9014 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:19:20.0880 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:19:20.2048 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-22 23:21:48.2152 Info Message Template Auto Format enabled
+2021-01-22 23:21:48.2747 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-22 23:21:48.3860 Info Adding target FileTarget(Name=logfile)
+2021-01-22 23:21:48.4635 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 12:06:33.8769 Info Message Template Auto Format enabled
+2021-01-23 12:06:34.2261 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 12:06:35.6528 Info Adding target FileTarget(Name=logfile)
+2021-01-23 12:06:36.0345 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 15:55:25.7070 Info Message Template Auto Format enabled
+2021-01-23 15:55:25.8457 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 15:55:26.0560 Info Adding target FileTarget(Name=logfile)
+2021-01-23 15:55:26.2909 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 16:12:29.7399 Info Message Template Auto Format enabled
+2021-01-23 16:12:29.8547 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 16:12:29.9331 Info Adding target FileTarget(Name=logfile)
+2021-01-23 16:12:29.9932 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 16:23:33.6288 Info Message Template Auto Format enabled
+2021-01-23 16:23:33.6768 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 16:23:33.7789 Info Adding target FileTarget(Name=logfile)
+2021-01-23 16:23:33.8705 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 17:09:53.9969 Info Message Template Auto Format enabled
+2021-01-23 17:09:54.1608 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 17:09:54.3405 Info Adding target FileTarget(Name=logfile)
+2021-01-23 17:09:54.4766 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 21:51:28.3143 Info Message Template Auto Format enabled
+2021-01-23 21:51:28.6014 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 21:51:29.0427 Info Adding target FileTarget(Name=logfile)
+2021-01-23 21:51:29.2939 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 22:35:12.7917 Info Message Template Auto Format enabled
+2021-01-23 22:35:13.4285 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 22:35:13.9084 Info Adding target FileTarget(Name=logfile)
+2021-01-23 22:35:14.3582 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 22:36:31.3234 Info Message Template Auto Format enabled
+2021-01-23 22:36:31.3806 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 22:36:31.5108 Info Adding target FileTarget(Name=logfile)
+2021-01-23 22:36:31.6113 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-23 22:41:07.5603 Info Message Template Auto Format enabled
+2021-01-23 22:41:07.8789 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-23 22:41:08.0547 Info Adding target FileTarget(Name=logfile)
+2021-01-23 22:41:08.2545 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 17:54:15.3480 Info Message Template Auto Format enabled
+2021-01-24 17:54:15.7165 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 17:54:16.1436 Info Adding target FileTarget(Name=logfile)
+2021-01-24 17:54:17.4200 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 18:27:08.5853 Info Message Template Auto Format enabled
+2021-01-24 18:27:08.6780 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 18:27:08.7667 Info Adding target FileTarget(Name=logfile)
+2021-01-24 18:27:08.9234 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 18:47:21.1151 Info Message Template Auto Format enabled
+2021-01-24 18:47:21.4574 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 18:47:21.6337 Info Adding target FileTarget(Name=logfile)
+2021-01-24 18:47:21.8323 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 18:50:09.8499 Info Message Template Auto Format enabled
+2021-01-24 18:50:10.4745 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 18:50:10.7009 Info Adding target FileTarget(Name=logfile)
+2021-01-24 18:50:10.8194 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 18:56:47.2698 Info Message Template Auto Format enabled
+2021-01-24 18:56:47.3260 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 18:56:47.4246 Info Adding target FileTarget(Name=logfile)
+2021-01-24 18:56:47.5049 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 19:02:08.2464 Info Message Template Auto Format enabled
+2021-01-24 19:02:08.3975 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 19:02:08.4968 Info Adding target FileTarget(Name=logfile)
+2021-01-24 19:02:08.5720 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 19:08:32.9949 Info Message Template Auto Format enabled
+2021-01-24 19:08:33.0531 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 19:08:33.1887 Info Adding target FileTarget(Name=logfile)
+2021-01-24 19:08:33.2945 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 19:12:18.1092 Info Message Template Auto Format enabled
+2021-01-24 19:12:18.1834 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 19:12:18.3944 Info Adding target FileTarget(Name=logfile)
+2021-01-24 19:12:18.4961 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-01-24 20:13:31.4631 Info Message Template Auto Format enabled
+2021-01-24 20:13:31.9659 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-24 20:13:32.5742 Info Adding target FileTarget(Name=logfile)
+2021-01-24 20:13:32.8062 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 21:06:23.7238 Info Message Template Auto Format enabled
+2021-02-03 21:06:24.0671 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 21:06:24.8862 Info Adding target FileTarget(Name=logfile)
+2021-02-03 21:06:25.5033 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 21:36:35.9718 Info Message Template Auto Format enabled
+2021-02-03 21:36:36.2759 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 21:36:36.3866 Info Adding target FileTarget(Name=logfile)
+2021-02-03 21:36:36.5236 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 21:56:15.6777 Info Message Template Auto Format enabled
+2021-02-03 21:56:15.7721 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 21:56:16.0162 Info Adding target FileTarget(Name=logfile)
+2021-02-03 21:56:16.2142 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 21:58:48.7124 Info Message Template Auto Format enabled
+2021-02-03 21:58:48.8205 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 21:58:48.9454 Info Adding target FileTarget(Name=logfile)
+2021-02-03 21:58:49.0102 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 22:01:54.1542 Info Message Template Auto Format enabled
+2021-02-03 22:01:54.2369 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 22:01:54.3925 Info Adding target FileTarget(Name=logfile)
+2021-02-03 22:01:54.4571 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 22:07:42.4067 Info Message Template Auto Format enabled
+2021-02-03 22:07:42.4645 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 22:07:42.6131 Info Adding target FileTarget(Name=logfile)
+2021-02-03 22:07:42.7320 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 22:22:20.6293 Info Message Template Auto Format enabled
+2021-02-03 22:22:20.7897 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 22:22:20.9317 Info Adding target FileTarget(Name=logfile)
+2021-02-03 22:22:21.1414 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 22:37:15.4112 Info Message Template Auto Format enabled
+2021-02-03 22:37:15.4957 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 22:37:15.6787 Info Adding target FileTarget(Name=logfile)
+2021-02-03 22:37:15.7713 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 23:03:15.4271 Info Message Template Auto Format enabled
+2021-02-03 23:03:15.5733 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 23:03:15.6896 Info Adding target FileTarget(Name=logfile)
+2021-02-03 23:03:15.7481 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-03 23:19:11.4162 Info Message Template Auto Format enabled
+2021-02-03 23:19:11.4579 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-03 23:19:11.5494 Info Adding target FileTarget(Name=logfile)
+2021-02-03 23:19:11.6290 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-04 18:49:32.2647 Info Message Template Auto Format enabled
+2021-02-04 18:49:32.5980 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-04 18:49:33.0128 Info Adding target FileTarget(Name=logfile)
+2021-02-04 18:49:33.5947 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-04 18:55:37.5177 Info Message Template Auto Format enabled
+2021-02-04 18:55:37.6097 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-04 18:55:37.7263 Info Adding target FileTarget(Name=logfile)
+2021-02-04 18:55:37.8264 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 17:39:32.6126 Info Message Template Auto Format enabled
+2021-02-10 17:39:33.3437 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 17:39:35.0241 Info Adding target FileTarget(Name=logfile)
+2021-02-10 17:39:35.9097 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:03:42.8127 Info Message Template Auto Format enabled
+2021-02-10 18:03:42.9312 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:03:43.1808 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:03:43.3708 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:07:40.4179 Info Message Template Auto Format enabled
+2021-02-10 18:07:40.5274 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:07:40.7017 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:07:40.8227 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:11:43.9797 Info Message Template Auto Format enabled
+2021-02-10 18:11:44.0271 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:11:44.2608 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:11:44.4082 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:13:47.2584 Info Message Template Auto Format enabled
+2021-02-10 18:13:47.5155 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:13:47.8339 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:13:47.9672 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:30:20.4846 Info Message Template Auto Format enabled
+2021-02-10 18:30:20.6201 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:30:20.7463 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:30:20.8203 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-10 18:42:34.4949 Info Message Template Auto Format enabled
+2021-02-10 18:42:34.5373 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-10 18:42:34.6581 Info Adding target FileTarget(Name=logfile)
+2021-02-10 18:42:34.7207 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-11 20:38:33.6056 Info Message Template Auto Format enabled
+2021-02-11 20:38:33.7137 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-11 20:38:33.9067 Info Adding target FileTarget(Name=logfile)
+2021-02-11 20:38:34.0569 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-11 20:47:34.8761 Info Message Template Auto Format enabled
+2021-02-11 20:47:34.9510 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-11 20:47:35.0412 Info Adding target FileTarget(Name=logfile)
+2021-02-11 20:47:35.1008 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-15 15:10:59.1130 Info Message Template Auto Format enabled
+2021-02-15 15:10:59.4742 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-15 15:11:00.1558 Info Adding target FileTarget(Name=logfile)
+2021-02-15 15:11:00.4662 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-16 15:24:24.4155 Info Message Template Auto Format enabled
+2021-02-16 15:24:24.5465 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-16 15:24:25.3698 Info Adding target FileTarget(Name=logfile)
+2021-02-16 15:24:25.5550 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-16 15:28:25.6498 Info Message Template Auto Format enabled
+2021-02-16 15:28:25.7062 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-16 15:28:25.7977 Info Adding target FileTarget(Name=logfile)
+2021-02-16 15:28:25.8543 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-16 15:33:19.5465 Info Message Template Auto Format enabled
+2021-02-16 15:33:19.5759 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-16 15:33:19.6668 Info Adding target FileTarget(Name=logfile)
+2021-02-16 15:33:19.7292 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-16 15:36:51.1053 Info Message Template Auto Format enabled
+2021-02-16 15:36:51.1532 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-16 15:36:51.2350 Info Adding target FileTarget(Name=logfile)
+2021-02-16 15:36:51.2918 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-16 16:27:03.0560 Info Message Template Auto Format enabled
+2021-02-16 16:27:03.1700 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-16 16:27:03.2498 Info Adding target FileTarget(Name=logfile)
+2021-02-16 16:27:03.3175 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-17 14:57:38.2498 Info Message Template Auto Format enabled
+2021-02-17 14:57:38.4049 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-17 14:57:38.7238 Info Adding target FileTarget(Name=logfile)
+2021-02-17 14:57:38.8756 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-18 19:49:04.5220 Info Message Template Auto Format enabled
+2021-02-18 19:49:04.6826 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-18 19:49:05.3358 Info Adding target FileTarget(Name=logfile)
+2021-02-18 19:49:05.4952 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-18 19:51:58.7545 Info Message Template Auto Format enabled
+2021-02-18 19:51:58.9814 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-18 19:51:59.1402 Info Adding target FileTarget(Name=logfile)
+2021-02-18 19:51:59.2347 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-18 20:12:25.9619 Info Message Template Auto Format enabled
+2021-02-18 20:12:26.0224 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-18 20:12:26.1228 Info Adding target FileTarget(Name=logfile)
+2021-02-18 20:12:26.2221 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-19 18:44:56.1193 Info Message Template Auto Format enabled
+2021-02-19 18:44:56.2306 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-19 18:44:56.9025 Info Adding target FileTarget(Name=logfile)
+2021-02-19 18:44:57.0629 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-19 23:12:10.5298 Info Message Template Auto Format enabled
+2021-02-19 23:12:10.6428 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-19 23:12:10.8237 Info Adding target FileTarget(Name=logfile)
+2021-02-19 23:12:10.9273 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-24 14:22:59.7547 Info Message Template Auto Format enabled
+2021-02-24 14:23:02.2595 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-24 14:23:04.2368 Info Adding target FileTarget(Name=logfile)
+2021-02-24 14:23:04.8106 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-24 17:57:09.1477 Info Message Template Auto Format enabled
+2021-02-24 17:57:09.2456 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-24 17:57:09.5023 Info Adding target FileTarget(Name=logfile)
+2021-02-24 17:57:09.6730 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-24 18:39:30.9656 Info Message Template Auto Format enabled
+2021-02-24 18:39:31.0031 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-24 18:39:31.0891 Info Adding target FileTarget(Name=logfile)
+2021-02-24 18:39:31.1731 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-24 18:44:58.6391 Info Message Template Auto Format enabled
+2021-02-24 18:44:58.6810 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-24 18:44:58.7847 Info Adding target FileTarget(Name=logfile)
+2021-02-24 18:44:58.8998 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-25 17:49:43.2230 Info Message Template Auto Format enabled
+2021-02-25 17:49:43.7607 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-25 17:49:44.7838 Info Adding target FileTarget(Name=logfile)
+2021-02-25 17:49:45.0838 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-25 20:14:19.8021 Info Message Template Auto Format enabled
+2021-02-25 20:14:19.9037 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-25 20:14:20.0908 Info Adding target FileTarget(Name=logfile)
+2021-02-25 20:14:20.2143 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-25 20:15:07.6473 Info Message Template Auto Format enabled
+2021-02-25 20:15:07.7017 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-25 20:15:07.7896 Info Adding target FileTarget(Name=logfile)
+2021-02-25 20:15:07.8637 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 00:15:32.6307 Info Message Template Auto Format enabled
+2021-02-28 00:15:33.0159 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 00:15:33.8528 Info Adding target FileTarget(Name=logfile)
+2021-02-28 00:15:34.2908 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 00:45:50.9656 Info Message Template Auto Format enabled
+2021-02-28 00:45:51.0920 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 00:45:51.3053 Info Adding target FileTarget(Name=logfile)
+2021-02-28 00:45:51.4397 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 12:21:52.2919 Info Message Template Auto Format enabled
+2021-02-28 12:21:52.8412 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 12:21:53.6679 Info Adding target FileTarget(Name=logfile)
+2021-02-28 12:21:54.2093 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 12:39:59.1629 Info Message Template Auto Format enabled
+2021-02-28 12:39:59.5150 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 12:39:59.7325 Info Adding target FileTarget(Name=logfile)
+2021-02-28 12:39:59.8833 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 13:14:12.1462 Info Message Template Auto Format enabled
+2021-02-28 13:14:12.2665 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 13:14:12.5012 Info Adding target FileTarget(Name=logfile)
+2021-02-28 13:14:12.6145 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 13:17:44.2896 Info Message Template Auto Format enabled
+2021-02-28 13:17:44.3519 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 13:17:44.4942 Info Adding target FileTarget(Name=logfile)
+2021-02-28 13:17:44.5939 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 17:40:55.7023 Info Message Template Auto Format enabled
+2021-02-28 17:40:55.8499 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 17:40:56.0464 Info Adding target FileTarget(Name=logfile)
+2021-02-28 17:40:56.1810 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-02-28 17:42:46.2188 Info Message Template Auto Format enabled
+2021-02-28 17:42:46.2686 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 17:42:46.3765 Info Adding target FileTarget(Name=logfile)
+2021-02-28 17:42:46.4687 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-03 20:02:17.4205 Info Message Template Auto Format enabled
+2021-03-03 20:02:17.5565 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-03 20:02:17.7917 Info Adding target FileTarget(Name=logfile)
+2021-03-03 20:02:18.0662 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-05 20:29:23.5203 Info Message Template Auto Format enabled
+2021-03-05 20:29:24.4411 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-05 20:29:26.8003 Info Adding target FileTarget(Name=logfile)
+2021-03-05 20:29:27.5169 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-06 12:18:01.1663 Info Message Template Auto Format enabled
+2021-03-06 12:18:01.4380 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-06 12:18:02.4231 Info Adding target FileTarget(Name=logfile)
+2021-03-06 12:18:02.5821 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-06 12:30:16.7297 Info Message Template Auto Format enabled
+2021-03-06 12:30:16.8227 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-06 12:30:17.0253 Info Adding target FileTarget(Name=logfile)
+2021-03-06 12:30:17.1497 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-07 13:08:47.9035 Info Message Template Auto Format enabled
+2021-03-07 13:08:48.1084 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-07 13:08:48.6191 Info Adding target FileTarget(Name=logfile)
+2021-03-07 13:08:49.0487 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-08 22:11:21.2852 Info Message Template Auto Format enabled
+2021-03-08 22:11:21.3985 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-08 22:11:22.0117 Info Adding target FileTarget(Name=logfile)
+2021-03-08 22:11:22.1848 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-08 22:31:03.4979 Info Message Template Auto Format enabled
+2021-03-08 22:31:03.5490 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-08 22:31:03.6482 Info Adding target FileTarget(Name=logfile)
+2021-03-08 22:31:03.7256 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-12 18:26:36.5859 Info Message Template Auto Format enabled
+2021-03-12 18:26:36.7009 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 18:26:36.8725 Info Adding target FileTarget(Name=logfile)
+2021-03-12 18:26:37.0153 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-15 19:03:08.9436 Info Message Template Auto Format enabled
+2021-03-15 19:03:09.2670 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-15 19:03:09.7411 Info Adding target FileTarget(Name=logfile)
+2021-03-15 19:03:10.1158 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-15 21:31:10.9562 Info Message Template Auto Format enabled
+2021-03-15 21:31:11.7231 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-15 21:31:13.7455 Info Adding target FileTarget(Name=logfile)
+2021-03-15 21:31:14.4494 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-15 21:37:12.0028 Info Message Template Auto Format enabled
+2021-03-15 21:37:12.0637 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-15 21:37:12.1768 Info Adding target FileTarget(Name=logfile)
+2021-03-15 21:37:12.2830 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-03-15 21:45:45.1719 Info Message Template Auto Format enabled
+2021-03-15 21:45:45.2088 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-15 21:45:45.3032 Info Adding target FileTarget(Name=logfile)
+2021-03-15 21:45:45.3806 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 14:11:49.0659 Info Message Template Auto Format enabled
+2021-04-10 14:11:49.2565 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 14:11:49.4361 Info Adding target FileTarget(Name=logfile)
+2021-04-10 14:11:49.7629 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 14:34:10.6967 Info Message Template Auto Format enabled
+2021-04-10 14:34:10.7193 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 14:34:10.8389 Info Adding target FileTarget(Name=logfile)
+2021-04-10 14:34:10.8945 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 14:36:44.4827 Info Message Template Auto Format enabled
+2021-04-10 14:36:44.5110 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 14:36:44.5901 Info Adding target FileTarget(Name=logfile)
+2021-04-10 14:36:45.0202 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 19:14:48.3820 Info Message Template Auto Format enabled
+2021-04-10 19:14:48.6737 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 19:14:48.8862 Info Adding target FileTarget(Name=logfile)
+2021-04-10 19:14:49.0215 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 19:28:34.8640 Info Message Template Auto Format enabled
+2021-04-10 19:28:34.9052 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 19:28:35.2525 Info Adding target FileTarget(Name=logfile)
+2021-04-10 19:28:35.3243 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 19:52:08.1826 Info Message Template Auto Format enabled
+2021-04-10 19:52:08.6464 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 19:52:08.9684 Info Adding target FileTarget(Name=logfile)
+2021-04-10 19:52:09.5271 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-04-10 20:51:24.5175 Info Message Template Auto Format enabled
+2021-04-10 20:51:25.0670 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-10 20:51:25.2299 Info Adding target FileTarget(Name=logfile)
+2021-04-10 20:51:25.3317 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-03 22:51:22.1774 Info Message Template Auto Format enabled
+2021-05-03 22:51:22.9608 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-03 22:51:23.9091 Info Adding target FileTarget(Name=logfile)
+2021-05-03 22:51:24.7912 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-03 23:26:51.1300 Info Message Template Auto Format enabled
+2021-05-03 23:26:51.4329 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-03 23:26:51.7807 Info Adding target FileTarget(Name=logfile)
+2021-05-03 23:26:51.8909 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-03 23:41:33.2786 Info Message Template Auto Format enabled
+2021-05-03 23:41:33.3281 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-03 23:41:33.4331 Info Adding target FileTarget(Name=logfile)
+2021-05-03 23:41:33.5121 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-03 23:42:41.4282 Info Message Template Auto Format enabled
+2021-05-03 23:42:41.4748 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-03 23:42:41.5599 Info Adding target FileTarget(Name=logfile)
+2021-05-03 23:42:41.6220 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-04 20:46:49.4550 Info Message Template Auto Format enabled
+2021-05-04 20:46:49.6948 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-04 20:46:49.9383 Info Adding target FileTarget(Name=logfile)
+2021-05-04 20:46:50.1081 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-04 20:49:20.6718 Info Message Template Auto Format enabled
+2021-05-04 20:49:20.6965 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-04 20:49:20.7685 Info Adding target FileTarget(Name=logfile)
+2021-05-04 20:49:20.8204 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-04 21:00:29.2897 Info Message Template Auto Format enabled
+2021-05-04 21:00:29.3530 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-04 21:00:29.4494 Info Adding target FileTarget(Name=logfile)
+2021-05-04 21:00:29.5535 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-29 20:26:01.4198 Info Message Template Auto Format enabled
+2021-05-29 20:26:01.8443 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-29 20:26:02.0664 Info Adding target FileTarget(Name=logfile)
+2021-05-29 20:26:02.6506 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-05-29 20:42:13.0733 Info Message Template Auto Format enabled
+2021-05-29 20:42:13.1383 Info Loading assembly: NLog.Web.AspNetCore
+2021-05-29 20:42:13.3172 Info Adding target FileTarget(Name=logfile)
+2021-05-29 20:42:13.4547 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 19:21:58.4598 Info Message Template Auto Format enabled
+2021-06-02 19:21:58.8533 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 19:21:59.1619 Info Adding target FileTarget(Name=logfile)
+2021-06-02 19:21:59.5102 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 21:08:31.4939 Info Message Template Auto Format enabled
+2021-06-02 21:08:31.6944 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 21:08:31.8596 Info Adding target FileTarget(Name=logfile)
+2021-06-02 21:08:31.9797 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 21:16:14.3314 Info Message Template Auto Format enabled
+2021-06-02 21:16:14.3629 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 21:16:14.4428 Info Adding target FileTarget(Name=logfile)
+2021-06-02 21:16:14.5027 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 23:18:43.6432 Info Message Template Auto Format enabled
+2021-06-02 23:18:45.7320 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 23:18:47.4178 Info Adding target FileTarget(Name=logfile)
+2021-06-02 23:18:47.9110 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 23:22:48.0674 Info Message Template Auto Format enabled
+2021-06-02 23:22:48.2812 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 23:22:48.6474 Info Adding target FileTarget(Name=logfile)
+2021-06-02 23:22:49.2513 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 23:41:36.8979 Info Message Template Auto Format enabled
+2021-06-02 23:41:36.9333 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 23:41:37.0316 Info Adding target FileTarget(Name=logfile)
+2021-06-02 23:41:37.1557 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-02 23:53:44.8914 Info Message Template Auto Format enabled
+2021-06-02 23:53:44.9622 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-02 23:53:45.0620 Info Adding target FileTarget(Name=logfile)
+2021-06-02 23:53:45.1788 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 12:08:07.7496 Info Message Template Auto Format enabled
+2021-06-03 12:08:07.9873 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 12:08:08.2727 Info Adding target FileTarget(Name=logfile)
+2021-06-03 12:08:08.9618 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 12:49:43.9716 Info Message Template Auto Format enabled
+2021-06-03 12:49:44.0687 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 12:49:44.2961 Info Adding target FileTarget(Name=logfile)
+2021-06-03 12:49:44.5537 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:06:12.6384 Info Message Template Auto Format enabled
+2021-06-03 13:06:12.7195 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:06:12.9624 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:06:13.0620 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:15:23.8159 Info Message Template Auto Format enabled
+2021-06-03 13:15:23.8555 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:15:23.9937 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:15:24.1070 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:33:49.5967 Info Message Template Auto Format enabled
+2021-06-03 13:33:50.0167 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:33:50.6090 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:33:50.9018 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:41:50.5791 Info Message Template Auto Format enabled
+2021-06-03 13:41:50.6553 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:41:50.7766 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:41:50.8608 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:45:34.1835 Info Message Template Auto Format enabled
+2021-06-03 13:45:34.2803 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:45:34.6331 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:45:34.7637 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 13:59:34.8289 Info Message Template Auto Format enabled
+2021-06-03 13:59:34.8943 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 13:59:35.0122 Info Adding target FileTarget(Name=logfile)
+2021-06-03 13:59:35.1054 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:02:58.6853 Info Message Template Auto Format enabled
+2021-06-03 14:02:58.8290 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:02:59.0076 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:02:59.0847 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:07:00.3160 Info Message Template Auto Format enabled
+2021-06-03 14:07:00.3623 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:07:00.4633 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:07:00.5341 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:12:59.1875 Info Message Template Auto Format enabled
+2021-06-03 14:12:59.2548 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:12:59.4169 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:12:59.4945 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:16:04.5163 Info Message Template Auto Format enabled
+2021-06-03 14:16:04.6349 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:16:04.8540 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:16:04.9669 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:28:49.1905 Info Message Template Auto Format enabled
+2021-06-03 14:28:49.4104 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:28:49.6075 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:28:49.6737 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 14:40:29.8523 Info Message Template Auto Format enabled
+2021-06-03 14:40:29.9002 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 14:40:30.4515 Info Adding target FileTarget(Name=logfile)
+2021-06-03 14:40:30.5674 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-03 15:58:23.1831 Info Message Template Auto Format enabled
+2021-06-03 15:58:24.4513 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-03 15:58:24.9210 Info Adding target FileTarget(Name=logfile)
+2021-06-03 15:58:25.4397 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-14 19:50:31.0342 Info Message Template Auto Format enabled
+2021-06-14 19:50:31.4730 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-14 19:50:31.9081 Info Adding target FileTarget(Name=logfile)
+2021-06-14 19:50:32.3043 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-14 19:59:32.9760 Info Message Template Auto Format enabled
+2021-06-14 19:59:33.0146 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-14 19:59:33.2479 Info Adding target FileTarget(Name=logfile)
+2021-06-14 19:59:33.6925 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config
+2021-06-19 20:33:14.3467 Info Message Template Auto Format enabled
+2021-06-19 20:33:14.6863 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-19 20:33:14.9786 Info Adding target FileTarget(Name=logfile)
+2021-06-19 20:33:15.1709 Info Validating config: TargetNames=logfile, ConfigItems=17, FilePath=F:\Workspace\EzPay\MS\EzPayService\bin\Debug\netcoreapp3.0\nlog.config

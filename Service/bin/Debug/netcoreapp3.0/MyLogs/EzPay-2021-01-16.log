@@ -1,0 +1,4 @@
+2021-01-16 13:53:07.8328|DEBUG|EzPayService.Program|init main function
+2021-01-16 13:53:09.4870|ERROR|EzPayService.Program|Error in init
+2021-01-16 13:54:16.7608|DEBUG|EzPayService.Program|init main function
+2021-01-16 13:56:11.9422|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes

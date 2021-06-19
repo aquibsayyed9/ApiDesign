@@ -1,0 +1,331 @@
+2021-02-04 18:49:34.0646|DEBUG|EzPayService.Program|init main function
+2021-02-04 18:50:09.6954|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-04 18:50:48.7308|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 18:50:48.7308|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 18:50:48.7308|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 18:50:48.7467|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 18:50:49.1024|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 18:51:09.8006|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 18:51:13.2424|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 18:51:15.6563|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 18:51:16.1693|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 18:51:16.1693|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 18:51:16.1693|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 18:51:16.1693|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 18:51:16.1810|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 18:51:16.4524|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 18:51:18.3531|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 18:51:21.0077|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 18:51:22.4623|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-04 18:52:00.4497|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 18:52:25.1760|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-04 18:52:25.1834|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-02-04 18:52:25.1834|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-04 18:55:37.9299|DEBUG|EzPayService.Program|init main function
+2021-02-04 18:55:51.0784|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 18:55:51.0784|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 18:55:51.0784|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 18:55:51.0875|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 18:55:54.0929|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 18:55:57.7757|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 18:55:59.1872|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 18:56:03.8178|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 18:56:06.1007|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 18:56:06.1073|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 18:56:06.1073|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 18:56:06.1197|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 18:56:06.1197|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 18:56:06.1197|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 18:56:11.5301|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 18:56:11.5301|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 18:56:12.7402|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 1, Mapping Entity to DTO and exiting method
+2021-02-04 18:56:12.7516|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 1
+2021-02-04 18:56:16.5636|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 18:56:16.5636|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 18:56:16.5636|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 18:56:16.5636|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 18:56:16.7887|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 18:56:22.0026|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 18:56:23.2270|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 18:56:27.2316|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 18:56:30.4706|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 18:56:30.4706|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 18:56:30.4706|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 18:56:30.4706|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 18:56:30.4706|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 18:56:30.4776|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 18:56:33.1783|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 18:56:39.8967|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 18:56:51.0606|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 2, Mapping Entity to DTO and exiting method
+2021-02-04 18:57:00.6661|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 2
+2021-02-04 19:03:32.7068|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 19:03:32.7068|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 19:03:32.7119|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 19:03:32.7119|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 19:03:34.1462|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 19:03:35.0626|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 19:03:35.0704|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 19:03:35.0704|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 19:03:35.9253|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 19:03:36.6410|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 3, Mapping Entity to DTO and exiting method
+2021-02-04 19:03:36.6410|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 3
+2021-02-04 19:04:11.8916|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 19:04:11.8916|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 19:04:11.8916|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 19:04:11.8916|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 19:04:12.1121|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 19:04:12.1121|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 19:04:12.1121|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 19:04:12.1121|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 19:04:12.1179|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 19:04:12.1179|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 19:04:12.7796|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 4, Mapping Entity to DTO and exiting method
+2021-02-04 19:04:12.7796|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 4
+2021-02-04 19:11:58.7158|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 19:11:58.7306|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 19:11:58.7306|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 19:11:58.7306|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 19:12:00.1367|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 19:12:00.1367|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 19:12:00.1367|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 19:12:00.8191|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 5, Mapping Entity to DTO and exiting method
+2021-02-04 19:12:00.8200|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 5
+2021-02-04 19:13:40.9318|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 19:13:40.9318|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 19:13:40.9318|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 19:13:40.9318|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 19:13:41.1579|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 19:13:41.1579|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 19:13:41.1579|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 19:13:41.1579|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-04 19:13:41.1579|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-04 19:13:41.1643|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 19:13:41.1643|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 19:13:41.8368|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 6, Mapping Entity to DTO and exiting method
+2021-02-04 19:13:41.8368|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 6
+2021-02-04 19:26:19.5275|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|System.AggregateException: One or more errors occurred. (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 48
+2021-02-04 20:56:29.2179|ERROR|EzPay.Business.Classes.BalancesBusinessAccess|System.AggregateException: One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.FixedSizeReader.ReadPacketAsync(Stream transport, AsyncProtocolRequest request)
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at EzPay.Business.Classes.BalancesBusinessAccess.GetCustomerBalance(String accountNo) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\BalancesBusinessAccess.cs:line 48
+2021-02-04 21:01:27.3253|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 21:01:27.3253|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 21:01:27.3253|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 21:01:27.3253|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 21:01:29.2697|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '111.91.75.179' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.PaymentDataAccess.GetPaymentGatewayDetails(PaymentGatewayDTO paymentGatewayDTO) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 52
+ClientConnectionId:44d49f1c-f867-44f7-8a98-5381ddbb095c
+Error Number:40615,State:1,Class:14
+2021-02-04 21:01:31.2514|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-04 21:01:58.9870|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-04 21:03:46.3221|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 21:03:46.3221|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 21:03:46.3221|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 21:03:46.3221|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 21:03:47.5835|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '111.91.75.179' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.PaymentDataAccess.GetPaymentGatewayDetails(PaymentGatewayDTO paymentGatewayDTO) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 52
+ClientConnectionId:bfd9d087-3a9b-4599-a4e3-81456ea814f3
+Error Number:40615,State:1,Class:14
+2021-02-04 21:05:09.0467|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 21:05:19.8524|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'ibt-innovations-sql-server' requested by the login. Client with IP address '111.91.75.179' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.PaymentDataAccess.GetPaymentGatewayDetails(PaymentGatewayDTO paymentGatewayDTO) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 52
+ClientConnectionId:48055afe-7c8e-48c6-a4b9-1e056be866d3
+Error Number:40615,State:1,Class:14
+2021-02-04 21:05:21.6311|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-04 21:05:21.6323|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-04 21:07:08.1866|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-04 21:07:33.9316|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-04 21:07:46.0545|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-04 21:07:46.0557|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-04 21:07:46.0557|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-04 21:07:46.0557|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-04 21:07:46.2806|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-04 21:07:50.9232|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-04 21:07:52.0260|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-04 21:07:55.5306|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-04 21:07:59.4007|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-04 21:07:59.4007|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-04 21:07:59.4007|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-04 21:07:59.4810|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"ComTrustReturnPath","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"5504910f-b32f-4c37-8f4e-6572085fa04a","Store":"Seashore Villas","Terminal":"Seashore Villas","Channel":"Web","Amount":"5513.44","Customer":null,"OrderName":"PayBill","UserName":null,"Password":null}}
+2021-02-04 21:07:59.4810|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-04 21:07:59.5140|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-04 21:07:59.5140|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-04 21:07:59.5140|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-04 21:08:01.0675|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"ResponseCode":"5001","ResponseClass":"7","ResponseDescription":"Neither certificate nor password was provided","ResponseClassDescription":"Request is invalid","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"63257c30-6b20-4d80-8aba-6d8451d872e2"}} 
+ De-Serializing to get Response
+2021-02-04 21:08:05.7706|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: , Updating paymentTransactionsDTO properties
+2021-02-04 21:14:35.5368|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-04 21:14:36.2624|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-04 21:14:38.7401|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'EzzPayDev.dbo.PaymentTransactions', column 'PGDetails'. Truncated value: 'Seashore Villas:Seas'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:aea5700b-cf82-46ee-8684-2c491e8a6dfd
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 110
+2021-02-04 21:14:38.8249|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-02-04 21:14:38.8249|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure

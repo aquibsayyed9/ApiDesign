@@ -1,0 +1,210 @@
+2021-02-16 15:24:25.8012|DEBUG|EzPayService.Program|init main function
+2021-02-16 15:26:25.6602|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-16 15:26:39.6870|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 15:26:39.6870|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 15:26:39.6870|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 15:26:39.6870|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 15:26:39.9748|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 15:26:39.9874|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 15:26:40.0678|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"4f897c30-14af-42","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 15:26:40.0678|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 15:26:40.1266|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 15:26:40.1266|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 15:26:40.1266|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 15:26:42.1988|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"208180568107","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"360adb16-6a96-42ed-91e8-a22eb85578b4"}} 
+ De-Serializing to get Response
+2021-02-16 15:26:42.1988|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 208180568107, Updating paymentTransactionsDTO properties
+2021-02-16 15:26:42.2146|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 15:26:42.2146|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 15:26:43.2700|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 30, Mapping Entity to DTO and exiting method
+2021-02-16 15:26:43.2842|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 30
+2021-02-16 15:28:25.9090|DEBUG|EzPayService.Program|init main function
+2021-02-16 15:29:26.0822|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 15:29:26.0822|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 15:29:26.0822|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 15:29:26.1030|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 15:29:28.5210|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 15:29:28.5448|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 15:29:28.5470|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 15:29:28.5470|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 15:29:28.5470|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 15:29:28.5470|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 15:29:28.5470|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 15:29:28.5982|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"a7485d82-e6a0-4b","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 15:29:28.5982|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 15:29:28.6349|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 15:29:28.6349|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 15:29:28.6528|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 15:29:32.9937|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"218336551681","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"397e01db-37de-4cd2-9d20-2b4797ac7963"}} 
+ De-Serializing to get Response
+2021-02-16 15:29:33.0207|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 218336551681, Updating paymentTransactionsDTO properties
+2021-02-16 15:29:33.0207|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 15:29:33.0207|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 15:29:34.0086|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 31, Mapping Entity to DTO and exiting method
+2021-02-16 15:29:34.0254|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 31
+2021-02-16 15:33:19.7871|DEBUG|EzPayService.Program|init main function
+2021-02-16 15:33:35.5752|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 15:33:35.5778|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 15:33:35.5778|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 15:33:35.5778|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 15:33:37.9752|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 15:33:37.9963|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 15:33:37.9963|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 15:33:37.9992|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 15:33:37.9992|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 15:33:37.9992|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 15:33:37.9992|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 15:33:38.0400|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"9d2a3e24-38b4-49","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 15:33:38.0400|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 15:33:38.0776|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 15:33:38.0803|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 15:33:38.0803|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 15:33:39.9072|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"264367663044","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"27c9622d-c958-44fa-9ec5-f3d440100f61"}} 
+ De-Serializing to get Response
+2021-02-16 15:33:39.9278|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 264367663044, Updating paymentTransactionsDTO properties
+2021-02-16 15:33:39.9278|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 15:33:39.9278|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 15:33:40.9151|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 32, Mapping Entity to DTO and exiting method
+2021-02-16 15:33:40.9274|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 32
+2021-02-16 15:34:26.3145|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 15:34:26.3145|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 15:34:26.3145|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 15:34:26.3145|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 15:34:26.5506|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 15:34:26.5506|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 15:34:26.5613|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"f7d6dfaf-aec6-4c","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 15:34:26.5613|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 15:34:26.5613|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 15:34:26.5613|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 15:34:26.5613|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 15:34:28.0557|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"213608063180","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"0ac79742-7fba-40bc-83a4-a6fe87df5f99"}} 
+ De-Serializing to get Response
+2021-02-16 15:34:28.0557|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 213608063180, Updating paymentTransactionsDTO properties
+2021-02-16 15:34:28.0557|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 15:34:28.0618|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 15:34:28.7283|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 33, Mapping Entity to DTO and exiting method
+2021-02-16 15:34:28.7283|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 33
+2021-02-16 15:36:51.3493|DEBUG|EzPayService.Program|init main function
+2021-02-16 15:37:15.4318|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 15:37:15.4318|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 15:37:15.4318|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 15:37:15.4475|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 15:37:17.7580|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 15:37:17.7808|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 15:37:17.8242|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"1a799ffa-e001-49","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 15:37:17.8251|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 15:37:17.8548|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 15:37:17.8575|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 15:37:17.8575|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 15:37:20.8862|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"217166386583","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"8666f1d0-0d93-41a1-9cb4-e55bc70c5438"}} 
+ De-Serializing to get Response
+2021-02-16 15:37:20.9092|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 217166386583, Updating paymentTransactionsDTO properties
+2021-02-16 15:37:20.9092|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 15:37:20.9092|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 15:37:21.9179|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 34, Mapping Entity to DTO and exiting method
+2021-02-16 15:37:21.9295|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 34
+2021-02-16 15:38:09.1757|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-16 15:38:21.8103|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 217166386583, for updating payment status
+2021-02-16 15:38:29.2246|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-16 15:38:33.1978|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-16 16:27:03.3978|DEBUG|EzPayService.Program|init main function
+2021-02-16 17:05:45.7402|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-16 17:21:18.3100|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 17:21:18.3122|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 17:21:18.3122|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 17:21:18.3122|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 17:21:19.7348|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:21:19.7348|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 17:21:19.7500|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 17:21:19.7500|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 17:21:19.7500|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 17:21:19.7500|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 17:21:19.7500|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 17:21:19.8319|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"bca40354-516d-42","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 17:21:19.8319|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 17:21:19.8593|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 17:21:19.8593|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 17:21:19.8593|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 17:21:22.0619|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"238457274061","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"ae365a9e-a1a9-4ea7-9f8f-91d1482e3ac6"}} 
+ De-Serializing to get Response
+2021-02-16 17:21:22.0912|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 238457274061, Updating paymentTransactionsDTO properties
+2021-02-16 17:21:22.0935|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 17:21:22.0935|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 17:21:23.1908|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 35, Mapping Entity to DTO and exiting method
+2021-02-16 17:21:23.2127|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 35
+2021-02-16 17:21:52.8242|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-16 17:21:52.8283|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 238457274061, for updating payment status
+2021-02-16 17:21:53.0649|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-16 17:21:53.0649|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-16 17:23:51.9904|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-16 17:23:51.9904|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-16 17:23:51.9904|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-16 17:23:52.0001|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-16 17:23:52.2392|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:23:52.2392|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"c74d657e-b39f-48","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"5552.29","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-16 17:23:52.2520|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-16 17:23:53.8993|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"223837185447","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"0ea95edd-127a-4549-81a5-5ab1a554f395"}} 
+ De-Serializing to get Response
+2021-02-16 17:23:53.9082|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 223837185447, Updating paymentTransactionsDTO properties
+2021-02-16 17:23:53.9082|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-16 17:23:53.9082|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-16 17:23:54.6012|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 36, Mapping Entity to DTO and exiting method
+2021-02-16 17:23:54.6012|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 36
+2021-02-16 17:24:18.0773|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-02-16 17:24:18.0773|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 223837185447, for updating payment status
+2021-02-16 17:24:18.3105|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-02-16 17:24:18.3121|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-02-16 17:24:40.0176|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:24:40.0176|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:24:40.0176|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:30:11.8480|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:30:11.8605|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:30:11.8881|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:30:14.8328|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:30:17.1975|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:30:17.1975|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:30:17.1975|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:30:17.2045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:30:17.2045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:30:17.2045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:30:17.2045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:30:17.2045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:31:07.1254|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:31:07.1254|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:31:07.1254|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:39:27.6280|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:39:27.6280|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:39:27.6280|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 17:41:36.2955|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 17:41:36.3012|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 17:41:36.3012|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 18:27:04.0382|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 18:27:04.0382|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 18:27:04.0382|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-02-16 18:28:15.7123|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-02-16 18:28:15.7123|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-02-16 18:28:15.7222|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method

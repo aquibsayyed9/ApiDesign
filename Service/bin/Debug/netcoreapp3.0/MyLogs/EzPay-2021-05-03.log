@@ -1,0 +1,289 @@
+2021-05-03 22:51:25.5829|DEBUG|EzPayService.Program|init main function
+2021-05-03 23:00:49.9359|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-05-03 23:01:46.4328|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:01:46.4328|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-05-03 23:01:46.4328|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:01:46.4328|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:01:46.8361|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:01:46.8361|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:01:46.8361|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-05-03 23:01:46.8526|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-05-03 23:01:46.8973|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-05-03 23:01:46.8973|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-05-03 23:01:46.8973|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:01:49.7497|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'EzzPayDev.dbo.PaymentTransactions', column 'PGDetails'. Truncated value: 'adcb_120404444202_aed1:EE6BE134-E44B-4B36-8ECC-AB9'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8ab786db-3cc4-4d1c-8cbb-51b6c19fc4ac
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 110
+2021-05-03 23:01:50.4761|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-05-03 23:01:50.4766|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-05-03 23:04:34.5930|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:04:34.5930|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-05-03 23:04:34.5930|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:04:34.5930|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:04:34.9171|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:04:34.9171|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:04:34.9171|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:04:34.9171|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-05-03 23:04:34.9303|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-05-03 23:04:34.9303|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:04:35.6741|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'EzzPayDev.dbo.PaymentTransactions', column 'PGDetails'. Truncated value: 'adcb_120404444202_aed1:EE6BE134-E44B-4B36-8ECC-AB9'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8ab786db-3cc4-4d1c-8cbb-51b6c19fc4ac
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 110
+2021-05-03 23:04:35.6741|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-05-03 23:04:35.6741|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-05-03 23:05:08.1045|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:05:08.1045|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-05-03 23:05:08.1045|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:05:08.1045|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:05:08.3247|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-05-03 23:05:08.3247|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-05-03 23:05:08.3247|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:05:09.0623|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'EzzPayDev.dbo.PaymentTransactions', column 'PGDetails'. Truncated value: 'adcb_120404444202_aed1:EE6BE134-E44B-4B36-8ECC-AB9'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8ab786db-3cc4-4d1c-8cbb-51b6c19fc4ac
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 110
+2021-05-03 23:05:09.0623|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-05-03 23:05:09.0623|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-05-03 23:06:48.9636|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:06:50.3789|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 1, Tower ID: 1
+2021-05-03 23:06:52.9385|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:06:53.6191|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:06:53.8443|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:07:01.7282|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:07:05.0557|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:07:17.1172|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-05-03 23:07:17.1189|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: TAHA INVESTMENT GROUP (TIG) LIMITED with Email ID: michels@tigholding.com
+2021-05-03 23:07:17.1189|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:07:17.8509|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'EzzPayDev.dbo.PaymentTransactions', column 'PGDetails'. Truncated value: 'adcb_120404444202_aed1:EE6BE134-E44B-4B36-8ECC-AB9'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8ab786db-3cc4-4d1c-8cbb-51b6c19fc4ac
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 110
+2021-05-03 23:07:17.8522|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-05-03 23:07:17.8522|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-05-03 23:07:30.7298|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-05-03 23:18:38.2175|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-05-03 23:26:52.1115|DEBUG|EzPayService.Program|init main function
+2021-05-03 23:34:57.8644|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:34:57.8877|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 2
+2021-05-03 23:34:57.8877|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:34:57.8998|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:34:58.1303|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:34:58.1417|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-05-03 23:34:58.1417|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-05-03 23:37:24.4095|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:37:24.4095|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 2
+2021-05-03 23:37:24.4095|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:37:24.4185|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:37:24.7918|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:37:24.7918|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:37:24.7918|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:37:24.7918|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-05-03 23:37:24.7918|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-05-03 23:37:24.7918|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-05-03 23:37:24.8068|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-05-03 23:37:24.9052|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"a5536be6-853e-43","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"3500.1","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-05-03 23:37:24.9052|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-05-03 23:37:26.3090|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-05-03 23:37:26.3090|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-05-03 23:37:26.3241|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-05-03 23:37:29.7832|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"275564064456","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"7dec4636-0058-49fe-bef5-425f94a1123c"}} 
+ De-Serializing to get Response
+2021-05-03 23:37:29.8254|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 275564064456, Updating paymentTransactionsDTO properties
+2021-05-03 23:37:29.8254|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Aiser Khalid Hussain Alhawi with Email ID: kmd@unitedintergroup.com
+2021-05-03 23:37:29.8254|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:37:30.8641|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 145, Mapping Entity to DTO and exiting method
+2021-05-03 23:37:30.8801|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 145
+2021-05-03 23:38:14.3138|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-05-03 23:38:16.2604|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-05-03 23:38:16.2604|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-05-03 23:38:16.2604|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:38:17.6024|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing To Finalize FAB Payment
+2021-05-03 23:38:17.6024|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json ===>{"Finalization":{"TransactionID":"275564064456","Customer":"ELTIZAM","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-05-03 23:38:17.6024|INFO|EzPay.Business.Classes.ComTrustBusiness|initializing the FAB finalize process with transactionId-275564064456
+2021-05-03 23:38:20.7074|INFO|EzPay.Business.Classes.ComTrustBusiness|finalize process for transactionId-275564064456 is success
+2021-05-03 23:38:23.3011|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 275564064456, for updating payment status
+2021-05-03 23:38:23.5320|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-05-03 23:38:23.5320|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-05-03 23:39:10.2241|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-05-03 23:39:10.2241|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-05-03 23:39:10.2335|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:41:33.5907|DEBUG|EzPayService.Program|init main function
+2021-05-03 23:41:34.3667|ERROR|EzPayService.Program|Error in init
+2021-05-03 23:42:41.6832|DEBUG|EzPayService.Program|init main function
+2021-05-03 23:43:03.1818|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-05-03 23:43:03.1818|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 2
+2021-05-03 23:43:03.1818|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-05-03 23:43:03.1818|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-05-03 23:43:05.8358|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:43:05.9130|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-05-03 23:43:05.9146|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-05-03 23:43:05.9146|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-05-03 23:43:05.9146|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-05-03 23:43:05.9146|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-05-03 23:43:05.9146|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-05-03 23:43:05.9717|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"https://localhost:44355/api/Payment/TransactionUpdate","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"eb50d394-c34e-4c","Store":"Three60 Communities AD","Terminal":"TOWER 2","Channel":"Web","Amount":"3500.1","Customer":"ELTIZAM","OrderName":"PayBill","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-05-03 23:43:05.9717|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-05-03 23:43:06.0868|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-05-03 23:43:06.1073|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-05-03 23:43:06.1240|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-05-03 23:43:08.6315|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"PaymentPortal":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","PaymentPage":"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI","ResponseCode":"0","ResponseClass":"0","ResponseDescription":"Request Processed Successfully","ResponseClassDescription":"Success","TransactionID":"225467880887","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"e3818724-1eb1-4afa-b997-8fcac785f7e1"}} 
+ De-Serializing to get Response
+2021-05-03 23:43:08.6670|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Transaction Data with Transaction ID: 225467880887, Updating paymentTransactionsDTO properties
+2021-05-03 23:43:08.6670|INFO|EzPay.Business.Classes.PaymentBusiness|Updated Properties, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Aiser Khalid Hussain Alhawi with Email ID: kmd@unitedintergroup.com
+2021-05-03 23:43:08.6670|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-05-03 23:43:09.8954|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Transaction save in DB with ID: 146, Mapping Entity to DTO and exiting method
+2021-05-03 23:43:09.9482|INFO|EzPay.Business.Classes.PaymentBusiness|Successful saved payment transaction with ID: 146
+2021-05-03 23:43:38.3676|INFO|EzPayService.Controllers.PaymentController|Transaction Update Controller Called
+2021-05-03 23:43:38.3676|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-05-03 23:43:38.3676|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-05-03 23:43:38.3676|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method
+2021-05-03 23:43:39.7601|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing To Finalize FAB Payment
+2021-05-03 23:43:39.7601|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json ===>{"Finalization":{"TransactionID":"225467880887","Customer":"ELTIZAM","UserName":"Khateeb","Password":"Tamouh@123456789"}}
+2021-05-03 23:43:39.7601|INFO|EzPay.Business.Classes.ComTrustBusiness|initializing the FAB finalize process with transactionId-225467880887
+2021-05-03 23:43:42.4955|INFO|EzPay.Business.Classes.ComTrustBusiness|finalize process for transactionId-225467880887 is success
+2021-05-03 23:43:42.5142|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Creating PaymentTransactionDetail Entity object from paymentDTO with transaction Id: 225467880887, for updating payment status
+2021-05-03 23:43:42.7329|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got PTD item, setting status
+2021-05-03 23:43:42.7329|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Properties have been set, calling Method: UpdatePT to update PT Table
+2021-05-03 23:43:55.2244|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping PaymentTransactionsDTO to Entity
+2021-05-03 23:43:55.2244|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping completed, getting Transaction Details
+2021-05-03 23:43:55.2278|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Transaction Details, Mapping Entity to DTO and Exiting Method

@@ -1,0 +1,2 @@
+2021-03-07 13:08:49.5498|DEBUG|EzPayService.Program|init main function
+2021-03-07 13:10:21.2807|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes

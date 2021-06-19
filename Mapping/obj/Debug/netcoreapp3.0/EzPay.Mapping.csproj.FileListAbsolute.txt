@@ -1,0 +1,14 @@
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.Mapping.deps.json
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.Mapping.dll
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.Mapping.pdb
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.DTO.dll
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.Entities.dll
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.DTO.pdb
+F:\Workspace\EzPay\MS\EzPay.Mapping\bin\Debug\netcoreapp3.0\EzPay.Entities.pdb
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.csprojAssemblyReference.cache
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.AssemblyInfoInputs.cache
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.AssemblyInfo.cs
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.csproj.CoreCompileInputs.cache
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.csproj.CopyComplete
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.dll
+F:\Workspace\EzPay\MS\EzPay.Mapping\obj\Debug\netcoreapp3.0\EzPay.Mapping.pdb

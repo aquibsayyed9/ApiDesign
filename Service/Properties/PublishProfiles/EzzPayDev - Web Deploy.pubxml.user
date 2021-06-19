@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAR5J5Rs4YBEiOECwCI8tx2QAAAAACAAAAAAAQZgAAAAEAACAAAAAoPJ2zJlPihw4YVvL+VaHwow6AU+hoVqmUQao7qu6GJAAAAAAOgAAAAAIAACAAAACT4oBTAqTPYjWU1cq0pCSne5hyxatuqtUqM2y1yZkn4oAAAAAlyZFZyGQDAxNlaYZT5D2xFevfMSuprkqzD6FUuV85wmd+yb48HlWHutAI6Fn1T/kTfA30UG1Mgea2Ga4PCg9rAHbW508J/XNtfspJxHCjOhZSEk6f9twgz0N+WRhdTw4ZJ/Rv51UVnTb86wdlLa0WEIoMLebrvckPsxesO6fe+0AAAAAFwu5FCRbDgzIbT3pV/UEOzIC7F0UGy1/r7/XfoGS82dRbemLok2fJlelwFvsI+8qaCJo3X75V3GnI66d9Eivi</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="connStr">
+      <Value>Server=tcp:ibt-innovations-sql-server.database.windows.net%3bDatabase=EzzPayDev%3bUser Id=SQL_Dev%3bPassword=Ibt%402020</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

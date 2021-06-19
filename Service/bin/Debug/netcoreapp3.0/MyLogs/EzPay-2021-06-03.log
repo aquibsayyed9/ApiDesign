@@ -1,0 +1,115 @@
+2021-06-03 12:08:09.2929|DEBUG|EzPayService.Program|init main function
+2021-06-03 12:19:20.9570|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-06-03 12:40:57.6803|ERROR|EzPay.DataAccess.Classes.OtpDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Created'.
+Invalid column name 'Modified'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:aa485fe9-cb0a-40ec-bc03-419c71937a77
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.OtpDataAccess.InsertOtp(OtpTransactionDto otpTxn) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\OtpDataAccess.cs:line 32
+2021-06-03 12:49:44.6991|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:03:32.7620|ERROR|EzPay.DataAccess.Classes.OtpDataAccess|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:f4ee91db-34a2-4fca-ac2f-5d95e8e90c32
+Error Number:242,State:3,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EzPay.EFCore.GenericRepository`1.Save() in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 68
+   at EzPay.DataAccess.Classes.OtpDataAccess.InsertOtp(OtpTransactionDto otpTxn) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\OtpDataAccess.cs:line 32
+2021-06-03 13:06:13.1531|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:15:24.2144|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:16:26.7330|INFO|EzPay.Business.Classes.OtpTransactionBusiness|Sending otp email to user: michels@tigholding.com
+2021-06-03 13:19:36.1912|ERROR|EzPay.Business.Classes.OtpTransactionBusiness|System.ArgumentNullException: Value cannot be null. (Parameter 'text')
+   at MimeKit.MailboxAddress.Parse(ParserOptions options, String text)
+   at MimeKit.MailboxAddress.Parse(String text)
+   at EzPay.Business.Classes.EmailBusiness.Send(String from, String to, String subject, String html, String cc, String bcc) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\EmailBusiness.cs:line 30
+   at EzPay.Business.Classes.OtpTransactionBusiness.sendOtpEmail(String otp, String email, String customerName) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\OtpTransactionBusiness.cs:line 100
+2021-06-03 13:33:51.2690|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:41:50.9490|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:43:23.1419|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-06-03 13:44:17.2563|INFO|EzPay.Business.Classes.OtpTransactionBusiness|Sending otp email to user: michels@tigholding.com
+2021-06-03 13:45:34.8989|DEBUG|EzPayService.Program|init main function
+2021-06-03 13:59:35.1766|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:01:21.2511|ERROR|EzPay.DataAccess.Classes.OtpDataAccess|System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.OrderedEnumerable`1.TryGetFirst(Boolean& found)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.OtpDataAccess.GetOtpData(OtpTransactionDto otpTxn) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\OtpDataAccess.cs:line 46
+2021-06-03 14:02:59.1490|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:03:32.2377|ERROR|EzPay.DataAccess.Classes.OtpDataAccess|System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int32'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at EzPay.DataAccess.Classes.OtpDataAccess.GetOtpData(OtpTransactionDto otpTxn) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\OtpDataAccess.cs:line 47
+2021-06-03 14:07:00.6152|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:12:59.5639|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:16:05.1546|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:20:09.1621|INFO|EzPay.Business.Classes.OtpTransactionBusiness|Sending otp email to user: michels@tigholding.com
+2021-06-03 14:20:28.9686|ERROR|EzPay.Business.Classes.OtpTransactionBusiness|System.ArgumentNullException: Value cannot be null. (Parameter 'text')
+   at MimeKit.MailboxAddress.Parse(ParserOptions options, String text)
+   at MimeKit.MailboxAddress.Parse(String text)
+   at EzPay.Business.Classes.EmailBusiness.Send(String from, String to, String subject, String html, String cc, String bcc) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\EmailBusiness.cs:line 30
+   at EzPay.Business.Classes.OtpTransactionBusiness.sendOtpEmail(String otp, String email, String customerName) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\OtpTransactionBusiness.cs:line 100
+2021-06-03 14:28:49.7355|DEBUG|EzPayService.Program|init main function
+2021-06-03 14:33:30.1126|INFO|EzPay.Business.Classes.OtpTransactionBusiness|Sending otp email to user: michels@tigholding.com
+2021-06-03 14:34:28.1191|INFO|EzPay.Business.Classes.OtpTransactionBusiness|Otp Email sent successfully
+2021-06-03 14:40:30.6532|DEBUG|EzPayService.Program|init main function
+2021-06-03 15:58:25.7760|DEBUG|EzPayService.Program|init main function
+2021-06-03 15:59:50.7063|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes

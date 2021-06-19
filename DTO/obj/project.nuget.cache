@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1FAm5GUj/onHBVie9A0loHKm8oHLpJVWTd6QyKbMUk9dO+6UHhF8Rq6074PQpLukCim1laNN1n1x0IgWC7SkrA==",
+  "success": true,
+  "projectFilePath": "F:\\Workspace\\MS\\EzPay.DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

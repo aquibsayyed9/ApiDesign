@@ -1,0 +1,190 @@
+2021-02-03 21:06:25.8252|DEBUG|EzPayService.Program|init main function
+2021-02-03 21:22:34.6669|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-02-03 21:36:36.6096|DEBUG|EzPayService.Program|init main function
+2021-02-03 21:42:18.3385|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 21:42:18.3385|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-02-03 21:42:18.3385|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 21:42:18.3780|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-02-03 21:42:18.3780|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-03 21:42:18.3780|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 21:42:30.5635|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 21:42:30.5635|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-02-03 21:42:30.5635|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 21:42:30.5635|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-02-03 21:42:30.5635|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-03 21:42:30.5635|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 21:50:32.8204|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 21:50:32.8408|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-02-03 21:50:32.8455|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 21:50:32.8455|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-02-03 21:50:32.8455|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-03 21:50:32.8455|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 21:56:16.3266|DEBUG|EzPayService.Program|init main function
+2021-02-03 21:58:49.0722|DEBUG|EzPayService.Program|init main function
+2021-02-03 22:01:54.5187|DEBUG|EzPayService.Program|init main function
+2021-02-03 22:07:42.8037|DEBUG|EzPayService.Program|init main function
+2021-02-03 22:12:23.7936|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 22:12:23.7936|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 0, Charge Type ID: 0, Tower ID: 0
+2021-02-03 22:12:23.8196|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 22:12:23.8283|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID are all null or not active
+2021-02-03 22:12:23.8283|INFO|EzPay.Business.Classes.PaymentBusiness|DB Payment Gateway DTO is null
+2021-02-03 22:12:23.8283|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 22:22:21.2481|DEBUG|EzPayService.Program|init main function
+2021-02-03 22:23:08.8695|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 22:23:09.2199|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 22:23:13.3431|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 22:23:13.8974|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:23:20.0656|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:24:06.1236|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:34:42.3668|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:37:15.8710|DEBUG|EzPayService.Program|init main function
+2021-02-03 22:37:32.1538|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 22:37:32.1569|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 22:37:32.1569|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 22:37:32.1569|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:37:38.1231|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:37:46.2773|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 22:37:47.9251|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 22:39:20.0864|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:39:23.1747|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:40:04.8086|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 22:40:07.1273|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 22:40:40.4056|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:40:40.7968|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:40:46.3164|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 22:40:46.3164|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 22:40:46.3164|INFO|EzPay.Business.Classes.PaymentBusiness|Incorrect PG Type
+2021-02-03 22:40:46.3164|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 22:40:52.2206|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 22:40:52.2206|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 22:40:52.2206|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 22:40:52.2206|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 22:40:52.5680|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 22:41:01.2422|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 22:41:02.6847|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 22:41:33.7548|INFO|EzPay.Business.Classes.PaymentBusiness|PG Type is Com Trust, Calling Method: GetComTrustResponse
+2021-02-03 22:41:34.2336|INFO|EzPay.Business.Classes.PaymentBusiness|Calling Method: GenerateComTrustModel
+2021-02-03 22:41:34.2378|INFO|EzPay.Business.Classes.ComTrustBusiness|Inside Method: GenerateComTrustModel, Creating Com Trust Registration
+2021-02-03 22:41:34.2378|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration Created, exiting method
+2021-02-03 22:41:34.5910|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Request JSON: {"Registration":{"Currency":"AED","ReturnPath":"ComTrustReturnPath","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"d3bd0223-da00-4ed8-a741-3a4000bb5fdc","Store":"ABC","Terminal":"XYZ","Channel":"Web","Amount":"200","Customer":null,"OrderName":"PayBill","UserName":null,"Password":null}}
+2021-02-03 22:41:34.5910|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Com Trust Model, calling method: GetComTrustTransactionDetails to get transaction id from Com Trust
+2021-02-03 22:41:34.8785|INFO|EzPay.Business.Classes.ComTrustBusiness|Preparing json data to call Com Trust Service
+2021-02-03 22:41:34.8785|INFO|EzPay.Business.Classes.ComTrustBusiness|Request Serialized To Json, Preparing Content
+2021-02-03 22:41:34.9549|INFO|EzPay.Business.Classes.ComTrustBusiness|Data Prepared, Calling Service
+2021-02-03 22:41:38.8908|INFO|EzPay.Business.Classes.ComTrustBusiness|Com Trust Registration successfull with response: {"Transaction":{"ResponseCode":"5001","ResponseClass":"7","ResponseDescription":"Neither certificate nor password was provided","ResponseClassDescription":"Request is invalid","Balance":{"Value":"0"},"Amount":{"Value":"0"},"Fees":{"Value":"0"},"Payer":null,"UniqueID":"ad521924-86ff-4933-9866-38250f4da5c3"}} 
+ De-Serializing to get Response
+2021-02-03 23:03:15.8031|DEBUG|EzPayService.Program|init main function
+2021-02-03 23:03:54.5426|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 23:03:54.5483|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 23:03:54.5483|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 23:03:54.5483|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 23:03:57.5374|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 23:04:04.8577|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 23:04:06.6168|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 23:04:09.2518|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-03 23:04:10.3129|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-03 23:10:34.3949|ERROR|EzPay.Business.Classes.CyberSource|System.NullReferenceException: Object reference not set to an instance of an object.
+   at EzPay.Business.Classes.CyberSource.GenerateCSModel(PaymentTransactionsDTO paymentDTO, String amount) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\CyberSource.cs:line 52
+2021-02-03 23:10:34.7679|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generated Cyber Source Model
+2021-02-03 23:10:34.7679|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate Cyber Source object
+2021-02-03 23:10:34.7679|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 23:12:10.0635|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 23:12:10.0635|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 23:12:10.0635|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 23:12:10.0635|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 23:12:12.1140|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 23:12:13.8135|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 23:12:13.8135|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 23:12:13.8135|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-03 23:12:13.8135|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-03 23:12:14.8795|ERROR|EzPay.Business.Classes.CyberSource|System.NullReferenceException: Object reference not set to an instance of an object.
+   at EzPay.Business.Classes.CyberSource.GenerateCSModel(PaymentTransactionsDTO paymentDTO, String amount) in F:\Workspace\EzPay\MS\EzPay.Business\Classes\CyberSource.cs:line 52
+2021-02-03 23:12:14.8795|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generated Cyber Source Model
+2021-02-03 23:12:14.8795|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate Cyber Source object
+2021-02-03 23:12:14.8795|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 23:13:28.9591|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 23:13:28.9591|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 23:13:28.9591|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 23:13:28.9591|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 23:13:29.3206|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 23:13:40.9490|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 23:13:40.9490|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 23:13:40.9490|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-03 23:13:40.9589|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-03 23:13:40.9589|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-03 23:13:40.9589|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-03 23:13:40.9589|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-03 23:13:40.9589|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-03 23:13:41.1090|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-03 23:13:41.1090|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-03 23:13:41.1117|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-03 23:13:41.3371|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-03 23:13:41.7336|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to save Payment Transaction in DB
+2021-02-03 23:13:41.7346|INFO|EzPay.Business.Classes.PaymentBusiness|Unable to generate PG type, returning failure
+2021-02-03 23:13:48.3206|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 23:13:48.3206|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 23:13:48.3206|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 23:13:48.3206|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 23:13:48.6234|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 23:13:50.2398|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 23:13:51.3017|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 23:13:52.5827|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-03 23:13:53.3399|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-03 23:13:53.3399|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-03 23:13:53.3439|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-03 23:13:53.3439|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-03 23:13:53.3439|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-03 23:13:53.3439|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-03 23:14:09.8930|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-03 23:14:14.0444|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-03 23:14:14.0866|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-03 23:14:36.7095|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-03 23:14:55.5121|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-03 23:15:08.8929|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-03 23:19:11.7550|DEBUG|EzPayService.Program|init main function
+2021-02-03 23:21:18.3722|INFO|EzPay.Business.Classes.PaymentBusiness|Log the data by serialzing json
+2021-02-03 23:21:18.3772|INFO|EzPay.Business.Classes.PaymentBusiness|Serialized and logged data, Creating Payment Gateway DTO object using Company ID: 7, Charge Type ID: 2, Tower ID: 1
+2021-02-03 23:21:18.3772|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully created Payment Gateway DTO object, Calling Method: GetPaymentGatewayDetails
+2021-02-03 23:21:18.3772|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Company ID, ChargeType ID & Tower ID is not null
+2021-02-03 23:21:21.1803|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Got Details, Mapping Entity to DTO and Exiting Method
+2021-02-03 23:21:25.1837|INFO|EzPay.Business.Classes.PaymentBusiness|dbPaymentGatewayDTO is not null, updating properties of paymentTransactionsDTO
+2021-02-03 23:21:29.1268|INFO|EzPay.Business.Classes.PaymentBusiness|Properties have been updated, Switching on PG Type
+2021-02-03 23:21:32.5820|INFO|EzPay.Business.Classes.PaymentBusiness|PG type is Cyber Source, Calling Method: GetCyberSourceResponse
+2021-02-03 23:21:33.0640|INFO|EzPay.Business.Classes.CyberSource|Generating ADCB_CS model
+2021-02-03 23:21:33.0640|INFO|EzPay.Business.Classes.CyberSource|Cybser Source DTO model generated, exiting method
+2021-02-03 23:21:33.0640|INFO|EzPay.Business.Classes.PaymentBusiness|Cyber Source DTO object generated successfully, Calling Method: GetSignedData to signed data
+2021-02-03 23:21:33.0640|INFO|EzPay.Business.Classes.CyberSource|Inside Method: GetSignedData, Creating parameters object
+2021-02-03 23:21:33.0640|INFO|EzPay.Business.Classes.CyberSource|Signing parameter with Secret Key
+2021-02-03 23:21:33.0793|INFO|EzPay.Business.Classes.CyberSource|Returning Request param for payment gateway transaction
+2021-02-03 23:21:35.3419|INFO|EzPay.Business.Classes.PaymentBusiness|Successfully Generated Signed Cyber Source Data, Calling Method: SavePaymentTransaction to Save Payment Transaction for Customer Name: Maged Saad Shoukry Girgis with Email ID: magedshoukry@hotmail.com
+2021-02-03 23:21:41.2806|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB
+2021-02-03 23:24:28.0368|ERROR|EzPay.DataAccess.Classes.PaymentDataAccess|System.InvalidOperationException: The entity type 'PaymentTransactions' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at EzPay.EFCore.GenericRepository`1.Add(T entity) in F:\Workspace\EzPay\MS\EzPay.EFCore\GenericRepository.cs:line 41
+   at EzPay.DataAccess.Classes.PaymentDataAccess.SavePaymentTransaction(PaymentTransactionsDTO payTransaction) in F:\Workspace\EzPay\MS\EzPay.DataAccess\Classes\PaymentDataAccess.cs:line 109
+2021-02-03 23:24:37.7476|INFO|EzPay.DataAccess.Classes.PaymentDataAccess|Mapping DTO to Entity & Saving Payment Transaction In DB

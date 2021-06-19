@@ -1,0 +1,13 @@
+2021-01-07 15:25:13.6615|DEBUG|EzPayService.Program|init main function
+2021-01-07 15:28:51.5278|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 15:40:50.7674|DEBUG|EzPayService.Program|init main function
+2021-01-07 15:41:06.3063|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 15:41:17.8921|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 15:43:02.6411|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 15:45:18.6133|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 15:49:07.3119|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 16:12:23.3328|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 16:13:48.9613|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 16:16:22.5256|DEBUG|EzPayService.Program|init main function
+2021-01-07 16:16:46.3465|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
+2021-01-07 16:19:08.7046|INFO|EzPayService.Controllers.ChargeTypeController|Inside GetChargeTypes
